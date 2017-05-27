@@ -1,0 +1,3 @@
+Para ambos os exercícios foram usados critérios de teste funcional, o critério utilizado foi do particionamento em classes de equivalência. De acordo com os casos de testes solicitados, defini as condições de entrada, sendo assim verifiquei as classes válidas e inválidas de cada caso de teste. Para facilitar a escrita dos testes, também utilizei o padrão Arrange, Act e Assert (AAA), que facilita na organização da estrutura do caso de teste.
+
+Referência sobre AAA: http://wiki.c2.com/?ArrangeActAssert
