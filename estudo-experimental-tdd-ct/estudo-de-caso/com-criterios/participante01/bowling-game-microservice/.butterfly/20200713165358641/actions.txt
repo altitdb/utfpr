@@ -1,0 +1,208 @@
+TestEditingAction 1594670057836 ScoreControllerTest.java ADD import org.springframework.beans.factory.annotation.Autowired IMPORT ADD import org.springframework.beans.factory.annotation.Autowired IMPORT
+TestEditingAction 1594670067524 ScoreControllerTest.java ADD MockMvc mvc FIELD ADD MockMvc mvc FIELD
+TestEditingAction 1594670084296 ScoreControllerTest.java ADD import org.springframework.test.web.servlet.MockMvc IMPORT ADD import org.springframework.test.web.servlet.MockMvc IMPORT
+TestEditingAction 1594670096717 ScoreControllerTest.java ADD void shouldR FIELD ADD void shouldR FIELD
+TestEditingAction 1594670099265 ScoreControllerTest.java RENAME shouldR=>void shouldReturn FIELD RENAME shouldR=>void shouldReturn FIELD
+TestEditingAction 1594670101828 ScoreControllerTest.java RENAME shouldReturn=>void should FIELD RENAME shouldReturn=>void should FIELD
+TestEditingAction 1594670103384 ScoreControllerTest.java RENAME should=>void shouldGet FIELD RENAME should=>void shouldGet FIELD
+TestEditingAction 1594670106048 ScoreControllerTest.java RENAME shouldGet=>void shouldGetScore() METHOD RENAME shouldGet=>void shouldGetScore() METHOD
+TestEditingAction 1594670116800 ScoreControllerTest.java CHANGE void shouldGetScore() METHOD CHANGE void shouldGetScore() METHOD
+TestEditingAction 1594670117851 ScoreControllerTest.java CHANGE void shouldGetScore() METHOD CHANGE void shouldGetScore() METHOD
+TestEditingAction 1594670128428 ScoreControllerTest.java ADD import org.junit.jupiter.api.Test IMPORT ADD import org.junit.jupiter.api.Test IMPORT
+TestEditingAction 1594670185686 ScoreControllerTest.java CHANGE ScoreControllerTest.java CLASS CHANGE ScoreControllerTest.java CLASS
+EditAction 1594670185931 ScoreControllerTest.java 426 1 0 0
+TestFailureAction 1594670192499 ScoreControllerTest.java FAIL
+CodeEditingAction 1594670303957 SocreController.java ADD SocreController.java CLASS
+CodeEditingAction 1594670315478 SocreController.java ADD import org.springframework.web.bind.annotation.RestController IMPORT
+CodeEditingAction 1594670316209 SocreController.java CHANGE SocreController.java CLASS
+EditAction 1594670316210 SocreController.java 158 0 0 0
+TestFailureAction 1594670322811 ScoreControllerTest.java FAIL
+CodeEditingAction 1594670373311 bowling-game-microservice RENAME SocreController.java=>ScoreController.java CLASS
+EditAction 1594670373706 ScoreControllerTest.java 426 1 0 0
+TestPassAction 1594670389122 ScoreControllerTest.java OK
+TestEditingAction 1594670421785 ScoreControllerTest.java ADD import org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get IMPORT ADD import org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get IMPORT
+TestEditingAction 1594670500750 ScoreControllerTest.java ADD import org.springframework.test.web.servlet.result.MockMvcResultMatchers.status IMPORT ADD import org.springframework.test.web.servlet.result.MockMvcResultMatchers.status IMPORT
+TestEditingAction 1594670533069 ScoreControllerTest.java CHANGE ScoreControllerTest.java CLASS CHANGE ScoreControllerTest.java CLASS
+EditAction 1594670533319 ScoreControllerTest.java 690 1 1 0
+TestFailureAction 1594670541397 ScoreControllerTest.java FAIL
+CodeEditingAction 1594670596309 ScoreController.java ADD ResponseEntity get FIELD
+CodeEditingAction 1594670600839 ScoreController.java CHANGE void get FIELD
+CodeEditingAction 1594670603365 ScoreController.java ADD import org.springframework.web.bind.annotation.GetMapping IMPORT
+CodeEditingAction 1594670606392 ScoreController.java RENAME get=>void getScore() METHOD
+CodeEditingAction 1594670612129 ScoreController.java CHANGE ScoreController.java CLASS
+EditAction 1594670612133 ScoreController.java 282 1 0 0
+TestPassAction 1594670621356 ScoreControllerTest.java OK
+TestEditingAction 1594670711546 ScoreControllerTest.java ADD import org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath IMPORT ADD import org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath IMPORT
+TestEditingAction 1594670738989 ScoreControllerTest.java CHANGE ScoreControllerTest.java CLASS CHANGE ScoreControllerTest.java CLASS
+EditAction 1594670739000 ScoreControllerTest.java 826 1 1 0
+TestFailureAction 1594670748305 ScoreControllerTest.java FAIL
+CodeEditingAction 1594670763602 ScoreController.java CHANGE ScoreDTO getScore() METHOD
+CodeEditingAction 1594670799044 ScoreDTO.java ADD ScoreDTO.java CLASS
+CodeEditingAction 1594670800135 ScoreController.java ADD import br.edu.utfpr.bowlinggame.dto.ScoreDTO IMPORT
+CodeEditingAction 1594670828499 ScoreDTO.java ADD int score FIELD
+CodeEditingAction 1594670851536 ScoreDTO.java ADD int getScore() METHOD
+CodeEditingAction 1594670898248 ScoreDTO.java CHANGE Integer score FIELD
+CodeEditingAction 1594670902765 ScoreDTO.java CHANGE Integer getScore() METHOD
+CodeEditingAction 1594670945854 ScoreDTO.java ADD ScoreDTO(Integer) METHOD
+CodeEditingAction 1594670950344 ScoreDTO.java CHANGE ScoreDTO.java CLASS
+EditAction 1594670950350 ScoreDTO.java 216 2 3 0
+CodeEditingAction 1594670960072 ScoreDTO.java CHANGE ScoreDTO.java CLASS
+EditAction 1594670960072 ScoreDTO.java 205 2 2 0
+CodeEditingAction 1594670973923 ScoreController.java CHANGE ScoreController.java CLASS
+EditAction 1594670973924 ScoreController.java 354 1 1 0
+TestPassAction 1594670981762 ScoreControllerTest.java OK
+TestPassAction 1594671002390 ScoreControllerTest.java OK
+TestEditingAction 1594671032402 ScoreControllerTest.java CHANGE void shouldGetScore() METHOD CHANGE void shouldGetScore() METHOD
+TestEditingAction 1594671037972 ScoreControllerTest.java CHANGE void shouldGetScore() METHOD CHANGE void shouldGetScore() METHOD
+TestEditingAction 1594671045092 ScoreControllerTest.java ADD ScoreService scoreService FIELD ADD ScoreService scoreService FIELD
+TestEditingAction 1594671046627 ScoreControllerTest.java ADD import org.springframework.boot.test.mock.mockito.MockBean IMPORT ADD import org.springframework.boot.test.mock.mockito.MockBean IMPORT
+TestEditingAction 1594671051286 ScoreControllerTest.java CHANGE ScoreControllerTest.java CLASS CHANGE ScoreControllerTest.java CLASS
+EditAction 1594671051289 ScoreControllerTest.java 935 1 1 0
+EditAction 1594671051646 ScoreControllerTest.java 935 1 1 0
+TestFailureAction 1594671055818 ScoreControllerTest.java FAIL
+CodeEditingAction 1594671071002 ScoreService.java ADD ScoreService.java CLASS
+EditAction 1594671085866 ScoreService.java 131 0 0 0
+TestFailureAction 1594671090430 ScoreControllerTest.java FAIL
+TestEditingAction 1594671094301 ScoreControllerTest.java ADD import br.edu.utfpr.bowlinggame.service.ScoreService IMPORT ADD import br.edu.utfpr.bowlinggame.service.ScoreService IMPORT
+TestEditingAction 1594671094689 ScoreControllerTest.java CHANGE ScoreControllerTest.java CLASS CHANGE ScoreControllerTest.java CLASS
+EditAction 1594671094914 ScoreControllerTest.java 990 1 1 0
+TestPassAction 1594671103128 ScoreControllerTest.java OK
+TestEditingAction 1594671113993 ScoreControllerTest.java ADD import org.mockito.Mockito IMPORT ADD import org.mockito.Mockito IMPORT
+TestEditingAction 1594671209066 ScoreControllerTest.java ADD import br.edu.utfpr.bowlinggame.dto.ScoreDTO IMPORT ADD import br.edu.utfpr.bowlinggame.dto.ScoreDTO IMPORT
+TestEditingAction 1594671209376 ScoreControllerTest.java CHANGE ScoreControllerTest.java CLASS CHANGE ScoreControllerTest.java CLASS
+EditAction 1594671209379 ScoreControllerTest.java 1134 1 2 0
+EditAction 1594671209785 ScoreControllerTest.java 1134 1 2 0
+TestFailureAction 1594671218502 ScoreControllerTest.java FAIL
+CodeEditingAction 1594671257590 ScoreService.java ADD ScoreDTO getScore() METHOD
+CodeEditingAction 1594671268763 ScoreService.java ADD import br.edu.utfpr.bowlinggame.dto.ScoreDTO IMPORT
+CodeEditingAction 1594671269315 ScoreService.java CHANGE ScoreService.java CLASS
+EditAction 1594671269319 ScoreService.java 228 1 1 0
+EditAction 1594671269604 ScoreControllerTest.java 1134 1 2 0
+TestFailureAction 1594671280589 ScoreControllerTest.java FAIL
+TestEditingAction 1594671307006 ScoreControllerTest.java CHANGE ScoreControllerTest.java CLASS CHANGE ScoreControllerTest.java CLASS
+EditAction 1594671307201 ScoreControllerTest.java 1136 1 2 0
+TestPassAction 1594671317103 ScoreControllerTest.java OK
+TestEditingAction 1594671335876 ScoreControllerTest.java CHANGE ScoreControllerTest.java CLASS CHANGE ScoreControllerTest.java CLASS
+EditAction 1594671335885 ScoreControllerTest.java 1136 1 2 0
+TestEditingAction 1594671350180 ScoreControllerTest.java CHANGE ScoreControllerTest.java CLASS CHANGE ScoreControllerTest.java CLASS
+EditAction 1594671350180 ScoreControllerTest.java 1139 1 2 0
+TestPassAction 1594671358000 ScoreControllerTest.java OK
+TestEditingAction 1594671358861 ScoreControllerTest.java CHANGE ScoreControllerTest.java CLASS CHANGE ScoreControllerTest.java CLASS
+EditAction 1594671358862 ScoreControllerTest.java 1138 1 2 0
+TestFailureAction 1594671368897 ScoreControllerTest.java FAIL
+CodeEditingAction 1594671380045 ScoreController.java CHANGE ScoreDTO getScore() METHOD
+CodeEditingAction 1594671381580 ScoreController.java CHANGE ScoreDTO getScore() METHOD
+CodeEditingAction 1594671382052 ScoreController.java CHANGE ScoreController.java CLASS
+EditAction 1594671382054 ScoreController.java 354 1 1 0
+CodeEditingAction 1594671394122 ScoreController.java CHANGE ScoreController.java CLASS
+EditAction 1594671394123 ScoreController.java 353 1 1 0
+CodeEditingAction 1594671399863 ScoreController.java CHANGE ScoreController.java CLASS
+EditAction 1594671399866 ScoreController.java 353 1 1 0
+TestPassAction 1594671407125 ScoreControllerTest.java OK
+TestEditingAction 1594671474175 ScoreControllerTest.java CHANGE ScoreControllerTest.java CLASS CHANGE ScoreControllerTest.java CLASS
+EditAction 1594671474178 ScoreControllerTest.java 1199 1 3 0
+TestFailureAction 1594671486940 ScoreControllerTest.java FAIL
+TestFailureAction 1594671542019 ScoreControllerTest.java FAIL
+CodeEditingAction 1594671615798 ScoreController.java CHANGE ScoreDTO getScore() METHOD
+CodeEditingAction 1594671617847 ScoreController.java CHANGE ScoreDTO getScore() METHOD
+CodeEditingAction 1594671619864 ScoreController.java ADD import org.springframework.beans.factory.annotation.Autowired IMPORT
+CodeEditingAction 1594671822993 ScoreController.java ADD ScoreService scoreService FIELD
+CodeEditingAction 1594671827023 ScoreController.java ADD import br.edu.utfpr.bowlinggame.service.ScoreService IMPORT
+CodeEditingAction 1594671844764 ScoreController.java CHANGE ScoreController.java CLASS
+EditAction 1594671844768 ScoreController.java 525 1 1 0
+TestPassAction 1594671853063 ScoreControllerTest.java OK
+TestPassAction 1594671873408 ScoreControllerTest.java OK
+TestEditingAction 1594671905874 ScoreServiceTest.java ADD import org.springframework.boot.test.context.SpringBootTest IMPORT ADD import org.springframework.boot.test.context.SpringBootTest IMPORT
+TestEditingAction 1594671907084 ScoreServiceTest.java CHANGE ScoreServiceTest.java CLASS CHANGE ScoreServiceTest.java CLASS
+EditAction 1594671907086 ScoreServiceTest.java 183 0 0 0
+TestPassAction 1594671917493 ScoreControllerTest.java OK
+TestEditingAction 1594671950582 ScoreServiceTest.java ADD ScoreService score FIELD ADD ScoreService score FIELD
+TestEditingAction 1594671951617 ScoreServiceTest.java RENAME score=>ScoreService scoreService FIELD RENAME score=>ScoreService scoreService FIELD
+TestEditingAction 1594671953655 ScoreServiceTest.java ADD import org.springframework.beans.factory.annotation.Autowired IMPORT ADD import org.springframework.beans.factory.annotation.Autowired IMPORT
+TestEditingAction 1594671964256 ScoreServiceTest.java ADD void s FIELD ADD void s FIELD
+TestEditingAction 1594671966298 ScoreServiceTest.java RENAME s=>void should FIELD RENAME s=>void should FIELD
+TestEditingAction 1594671968849 ScoreServiceTest.java RENAME should=>void shouldGetS FIELD RENAME should=>void shouldGetS FIELD
+TestEditingAction 1594671972389 ScoreServiceTest.java ADD void shouldGetScore FIELD ADD void shouldGetScore FIELD
+TestCreationAction 1594671975427 ScoreServiceTest.java ADD void shouldGetScore() METHOD ADD void shouldGetScore() METHOD
+TestCreationAction 1594671985018 ScoreServiceTest.java ADD import org.junit.Test IMPORT ADD import org.junit.Test IMPORT
+TestCreationAction 1594672027697 ScoreServiceTest.java ADD import br.edu.utfpr.bowlinggame.dto.ScoreDTO IMPORT ADD import br.edu.utfpr.bowlinggame.dto.ScoreDTO IMPORT
+TestCreationAction 1594672057712 ScoreServiceTest.java ADD import org.assertj.core.api.Assertions IMPORT ADD import org.assertj.core.api.Assertions IMPORT
+TestCreationAction 1594672100714 ScoreServiceTest.java REMOVE import org.springframework.beans.factory.annotation.Autowired IMPORT REMOVE import org.springframework.beans.factory.annotation.Autowired IMPORT
+TestCreationAction 1594672103752 ScoreServiceTest.java ADD import org.junit.jupiter.api.Test IMPORT ADD import org.junit.jupiter.api.Test IMPORT
+TestCreationAction 1594672122573 ScoreServiceTest.java ADD import org.junit.jupiter.api.Assertions IMPORT ADD import org.junit.jupiter.api.Assertions IMPORT
+TestCreationAction 1594672129679 ScoreServiceTest.java CHANGE ScoreServiceTest.java CLASS CHANGE ScoreServiceTest.java CLASS
+EditAction 1594672129683 ScoreServiceTest.java 544 1 2 1
+TestCreationAction 1594672135602 ScoreServiceTest.java CHANGE ScoreServiceTest.java CLASS CHANGE ScoreServiceTest.java CLASS
+EditAction 1594672135602 ScoreServiceTest.java 512 1 1 0
+EditAction 1594672135676 ScoreServiceTest.java 512 1 1 0
+TestPassAction 1594672140316 ScoreServiceTest.java OK
+TestEditingAction 1594672142074 ScoreServiceTest.java CHANGE ScoreServiceTest.java CLASS CHANGE ScoreServiceTest.java CLASS
+EditAction 1594672142075 ScoreServiceTest.java 544 1 2 1
+EditAction 1594672142414 ScoreServiceTest.java 544 1 2 1
+TestFailureAction 1594672146905 ScoreServiceTest.java FAIL
+TestEditingAction 1594672155672 ScoreServiceTest.java CHANGE ScoreServiceTest.java CLASS CHANGE ScoreServiceTest.java CLASS
+EditAction 1594672155673 ScoreServiceTest.java 535 1 2 1
+CodeEditingAction 1594672167487 ScoreService.java CHANGE ScoreService.java CLASS
+EditAction 1594672167488 ScoreService.java 240 1 1 0
+TestPassAction 1594672194518 ScoreServiceTest.java OK
+TestEditingAction 1594672208267 ScoreServiceTest.java CHANGE void shouldGetScore() METHOD CHANGE void shouldGetScore() METHOD
+TestEditingAction 1594672211314 ScoreServiceTest.java CHANGE void shouldGetScore() METHOD CHANGE void shouldGetScore() METHOD
+TestEditingAction 1594672216429 ScoreServiceTest.java CHANGE void shouldGetScore() METHOD CHANGE void shouldGetScore() METHOD
+TestEditingAction 1594672222030 ScoreServiceTest.java ADD RoundRepository roundRepository FIELD ADD RoundRepository roundRepository FIELD
+TestEditingAction 1594672229123 ScoreServiceTest.java ADD import org.springframework.boot.test.mock.mockito.MockBean IMPORT ADD import org.springframework.boot.test.mock.mockito.MockBean IMPORT
+TestEditingAction 1594672234145 ScoreServiceTest.java CHANGE ScoreServiceTest.java CLASS CHANGE ScoreServiceTest.java CLASS
+EditAction 1594672234147 ScoreServiceTest.java 650 1 2 1
+EditAction 1594672234254 ScoreServiceTest.java 650 1 2 1
+TestFailureAction 1594672237065 ScoreServiceTest.java FAIL
+CodeEditingAction 1594672279049 RoundRepository.java ADD RoundRepository.java CLASS
+TestEditingAction 1594672280251 ScoreServiceTest.java ADD import br.edu.utfpr.bowlinggame.repository.RoundRepository IMPORT ADD import br.edu.utfpr.bowlinggame.repository.RoundRepository IMPORT
+CodeEditingAction 1594672287525 RoundRepository.java ADD import org.springframework.stereotype.Repository IMPORT
+CodeEditingAction 1594672294560 RoundRepository.java ADD Integer getS FIELD
+CodeEditingAction 1594672296067 RoundRepository.java RENAME getS=>Integer getScore() METHOD
+CodeEditingAction 1594672296575 RoundRepository.java CHANGE RoundRepository.java CLASS
+EditAction 1594672296577 RoundRepository.java 166 1 0 0
+EditAction 1594672296806 RoundRepository.java 166 1 0 0
+CodeEditingAction 1594672303086 RoundRepository.java CHANGE Integer getScore() METHOD
+CodeEditingAction 1594672317395 RoundRepository.java CHANGE RoundRepository.java CLASS
+EditAction 1594672317561 RoundRepository.java 177 1 0 0
+TestEditingAction 1594672322841 ScoreServiceTest.java CHANGE ScoreServiceTest.java CLASS CHANGE ScoreServiceTest.java CLASS
+EditAction 1594672323027 ScoreServiceTest.java 710 1 2 1
+TestPassAction 1594672329135 ScoreServiceTest.java OK
+TestEditingAction 1594672353415 ScoreServiceTest.java ADD import org.mockito.Mockito IMPORT ADD import org.mockito.Mockito IMPORT
+TestEditingAction 1594672406967 ScoreServiceTest.java CHANGE ScoreServiceTest.java CLASS CHANGE ScoreServiceTest.java CLASS
+EditAction 1594672406971 ScoreServiceTest.java 867 1 4 1
+TestEditingAction 1594672412662 ScoreServiceTest.java CHANGE ScoreServiceTest.java CLASS CHANGE ScoreServiceTest.java CLASS
+EditAction 1594672412663 ScoreServiceTest.java 866 1 4 1
+TestEditingAction 1594672418041 ScoreServiceTest.java CHANGE ScoreServiceTest.java CLASS CHANGE ScoreServiceTest.java CLASS
+EditAction 1594672418042 ScoreServiceTest.java 867 1 4 1
+TestEditingAction 1594672424606 ScoreServiceTest.java CHANGE ScoreServiceTest.java CLASS CHANGE ScoreServiceTest.java CLASS
+EditAction 1594672424606 ScoreServiceTest.java 867 1 4 1
+TestFailureAction 1594672429876 ScoreServiceTest.java FAIL
+TestEditingAction 1594672439933 ScoreServiceTest.java CHANGE ScoreServiceTest.java CLASS CHANGE ScoreServiceTest.java CLASS
+EditAction 1594672439933 ScoreServiceTest.java 811 1 3 1
+TestFailureAction 1594672445705 ScoreServiceTest.java FAIL
+CodeEditingAction 1594672452262 ScoreService.java CHANGE ScoreDTO getScore() METHOD
+CodeEditingAction 1594672453787 ScoreService.java ADD import org.springframework.beans.factory.annotation.Autowired IMPORT
+CodeEditingAction 1594672455806 ScoreService.java CHANGE ScoreDTO getScore() METHOD
+CodeEditingAction 1594672469964 ScoreService.java ADD import br.edu.utfpr.bowlinggame.repository.RoundRepository IMPORT
+CodeEditingAction 1594672473991 ScoreService.java ADD RoundRepository roundRepository FIELD
+CodeEditingAction 1594672501168 ScoreService.java CHANGE ScoreService.java CLASS
+EditAction 1594672501170 ScoreService.java 465 1 2 0
+EditAction 1594672501373 ScoreService.java 465 1 2 0
+TestPassAction 1594672507666 ScoreServiceTest.java OK
+TestEditingAction 1594672571423 ScoreServiceTest.java ADD ScoreServiceTest.java CLASS ADD ScoreServiceTest.java CLASS
+TestEditingAction 1594672639243 ScoreServiceTest.java CHANGE ScoreServiceTest.java CLASS CHANGE ScoreServiceTest.java CLASS
+EditAction 1594672639248 ScoreServiceTest.java 952 1 6 2
+TestFailureAction 1594672646737 ScoreServiceTest.java FAIL
+CodeEditingAction 1594672676529 ScoreService.java CHANGE ScoreService.java CLASS
+EditAction 1594672676530 ScoreService.java 468 1 2 0
+EditAction 1594672676797 ScoreService.java 468 1 2 0
+TestFailureAction 1594672683868 ScoreServiceTest.java FAIL
+CodeEditingAction 1594672719619 ScoreDTO.java ADD int hashCode() METHOD
+CodeEditingAction 1594672719620 ScoreDTO.java ADD boolean equals(Object) METHOD
+CodeEditingAction 1594672722851 ScoreDTO.java CHANGE ScoreDTO.java CLASS
+EditAction 1594672722856 ScoreDTO.java 729 4 12 0
+TestPassAction 1594672730907 ScoreServiceTest.java OK
+CodeEditingAction 1594672743544 ScoreDTO.java CHANGE ScoreDTO.java CLASS
+EditAction 1594672743544 ScoreDTO.java 561 3 8 0
+TestPassAction 1594672751155 ScoreServiceTest.java OK

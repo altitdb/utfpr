@@ -1,0 +1,136 @@
+TestPassAction 1595719358278 bowling-game-microservice.java OK
+TestPassAction 1595719380693 ShotServiceTest.java OK
+TestCreationAction 1595719505761 ShotServiceTest.java ADD void should_save_the_second_shot()/2 METHOD ADD void should_save_the_second_shot()/2 METHOD
+TestCreationAction 1595719511875 ShotServiceTest.java RENAME should_save_the_second_shot()/2=>void should_save_the_third_shot() METHOD RENAME should_save_the_second_shot()/2=>void should_save_the_third_shot() METHOD
+TestCreationAction 1595719693335 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595719693336 ShotServiceTest.java 1968 3 14 0
+TestCreationAction 1595719898926 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595719898927 ShotServiceTest.java 1968 3 14 0
+TestCreationAction 1595719909388 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595719909389 ShotServiceTest.java 1966 3 14 0
+TestCreationAction 1595719918907 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595719918908 ShotServiceTest.java 1966 3 14 0
+TestFailureAction 1595719940484 ShotServiceTest.java FAIL
+CodeEditingAction 1595720003446 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595720003447 ShotService.java 1153 1 5 0
+EditAction 1595720003608 ShotService.java 1153 1 5 0
+TestFailureAction 1595720021058 ShotServiceTest.java FAIL
+CodeEditingAction 1595720052386 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595720052387 ShotService.java 1225 1 5 0
+EditAction 1595720052531 ShotService.java 1225 1 5 0
+TestPassAction 1595720062958 ShotServiceTest.java OK
+TestEditingAction 1595720134488 ShotServiceTest.java CHANGE void should_save_the_first_shot() METHOD CHANGE void should_save_the_first_shot() METHOD
+TestEditingAction 1595720139584 ShotServiceTest.java CHANGE void should_save_the_first_shot() METHOD CHANGE void should_save_the_first_shot() METHOD
+TestEditingAction 1595720143173 ShotServiceTest.java CHANGE void should_save_the_first_shot() METHOD CHANGE void should_save_the_first_shot() METHOD
+TestEditingAction 1595720152824 ShotServiceTest.java ADD RoundRepository repo FIELD ADD RoundRepository repo FIELD
+TestEditingAction 1595720156385 ShotServiceTest.java ADD import br.edu.utfpr.bowlinggame.repository.RoundRepository IMPORT ADD import br.edu.utfpr.bowlinggame.repository.RoundRepository IMPORT
+TestEditingAction 1595720161446 ShotServiceTest.java ADD import org.springframework.boot.test.mock.mockito.MockBean IMPORT ADD import org.springframework.boot.test.mock.mockito.MockBean IMPORT
+TestEditingAction 1595720162924 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595720162924 ShotServiceTest.java 2130 3 14 0
+TestEditingAction 1595720214173 ShotServiceTest.java ADD import org.mockito.BDDMockito IMPORT ADD import org.mockito.BDDMockito IMPORT
+TestEditingAction 1595720229418 ShotServiceTest.java ADD import br.edu.utfpr.bowlinggame.entity.Round IMPORT ADD import br.edu.utfpr.bowlinggame.entity.Round IMPORT
+CodeEditingAction 1595720314595 Round.java ADD Round() METHOD
+CodeEditingAction 1595720333763 Round.java RENAME Round()=>Round(Integer) METHOD
+CodeEditingAction 1595720338178 Round.java CHANGE Round.java CLASS
+EditAction 1595720338179 Round.java 232 1 0 0
+TestEditingAction 1595720343815 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595720343816 ShotServiceTest.java 2342 3 17 0
+EditAction 1595720343999 ShotServiceTest.java 2342 3 17 0
+TestEditingAction 1595720377385 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595720377559 ShotServiceTest.java 2345 3 17 0
+TestEditingAction 1595720381208 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595720381209 ShotServiceTest.java 2348 3 17 0
+EditAction 1595720381393 ShotServiceTest.java 2348 3 17 0
+TestEditingAction 1595720486854 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595720486855 ShotServiceTest.java 2354 3 17 0
+EditAction 1595720487040 ShotServiceTest.java 2354 3 17 0
+TestPassAction 1595720502162 ShotServiceTest.java OK
+TestEditingAction 1595720568595 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595720568596 ShotServiceTest.java 2313 3 16 0
+TestEditingAction 1595720644860 ShotServiceTest.java ADD ShotServiceTest.java CLASS ADD ShotServiceTest.java CLASS
+TestEditingAction 1595720657329 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595720657329 ShotServiceTest.java 2376 3 17 0
+TestFailureAction 1595720663664 ShotServiceTest.java FAIL
+CodeEditingAction 1595720722626 ShotService.java ADD import br.edu.utfpr.bowlinggame.entity.Round IMPORT
+CodeEditingAction 1595720724433 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595720724565 ShotService.java 1199 1 5 0
+CodeEditingAction 1595720739244 ShotService.java CHANGE RoundsDTO shot(int) METHOD
+CodeEditingAction 1595720745276 ShotService.java ADD RoundRepository repo FIELD
+CodeEditingAction 1595720746153 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595720746318 ShotService.java 1232 1 5 0
+CodeEditingAction 1595720752849 ShotService.java ADD import br.edu.utfpr.bowlinggame.repository.RoundRepository IMPORT
+CodeEditingAction 1595720754484 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595720754653 ShotService.java 1292 1 5 0
+TestFailureAction 1595720774412 ShotServiceTest.java FAIL
+CodeEditingAction 1595720800717 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595720800908 ShotService.java 1301 1 5 0
+CodeEditingAction 1595720803293 ShotService.java ADD import org.springframework.stereotype.Service IMPORT
+CodeEditingAction 1595720805244 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595720805451 ShotService.java 1349 1 5 0
+CodeEditingAction 1595720811733 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595720811896 ShotService.java 1355 1 5 0
+CodeEditingAction 1595720826010 ShotService.java ADD ShotService(RoundRepository) METHOD
+CodeEditingAction 1595720834606 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595720834768 ShotService.java 1425 2 6 0
+TestFailureAction 1595720849572 ShotServiceTest.java FAIL
+CodeEditingAction 1595720886341 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595720886341 ShotService.java 1444 2 1 0
+EditAction 1595720886529 ShotService.java 1444 2 1 0
+CodeEditingAction 1595720888618 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595720888752 ShotService.java 1444 2 7 0
+CodeEditingAction 1595720998157 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595720998157 ShotService.java 1544 2 7 0
+EditAction 1595720998347 ShotService.java 1544 2 7 0
+CodeEditingAction 1595721013782 Round.java ADD Integer firstShot FIELD
+CodeEditingAction 1595721016812 Round.java CHANGE Round(Integer) METHOD
+CodeEditingAction 1595721018833 Round.java ADD Integer score FIELD
+CodeEditingAction 1595721035943 Round.java CHANGE Round.java CLASS
+EditAction 1595721035943 Round.java 339 1 2 0
+EditAction 1595721036162 Round.java 339 1 2 0
+EditAction 1595721036167 ShotService.java 1544 2 7 0
+CodeEditingAction 1595721080191 Round.java ADD Integer getFirstShot() METHOD
+CodeEditingAction 1595721080191 Round.java ADD Integer getScore() METHOD
+CodeEditingAction 1595721081266 Round.java CHANGE Round.java CLASS
+EditAction 1595721081267 Round.java 451 3 4 0
+EditAction 1595721081465 Round.java 451 3 4 0
+EditAction 1595721081469 ShotService.java 1544 2 7 0
+TestFailureAction 1595721101375 ShotServiceTest.java FAIL
+CodeEditingAction 1595721176269 Round.java ADD import java.util.Objects IMPORT
+CodeEditingAction 1595721178489 Round.java CHANGE Round.java CLASS
+EditAction 1595721178489 Round.java 861 5 10 0
+EditAction 1595721178683 ShotService.java 1544 2 7 0
+CodeEditingAction 1595721181256 Round.java CHANGE Round.java CLASS
+EditAction 1595721181256 Round.java 859 5 10 0
+CodeEditingAction 1595721185723 Round.java CHANGE Round.java CLASS
+EditAction 1595721185723 Round.java 857 5 10 0
+TestPassAction 1595721197662 ShotServiceTest.java OK
+CodeEditingAction 1595721234178 ShotService.java ADD RoundDTO toDTO(Round) METHOD
+CodeEditingAction 1595721234180 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595721234181 ShotService.java 1610 3 8 0
+EditAction 1595721234552 ShotService.java 1610 3 8 0
+TestPassAction 1595721247678 ShotServiceTest.java OK
+TestPassAction 1595721304440 ShotServiceTest.java OK
+TestEditingAction 1595721410609 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595721410609 ShotServiceTest.java 2470 3 19 0
+EditAction 1595721410805 ShotServiceTest.java 2470 3 19 0
+TestEditingAction 1595721422869 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595721423054 ShotServiceTest.java 2481 3 19 0
+TestEditingAction 1595721488141 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595721488339 ShotServiceTest.java 2517 3 20 0
+TestEditingAction 1595721522971 ShotServiceTest.java ADD ShotServiceTest.java CLASS ADD ShotServiceTest.java CLASS
+TestEditingAction 1595721531321 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595721531488 ShotServiceTest.java 2578 3 21 0
+TestEditingAction 1595721566454 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595721566454 ShotServiceTest.java 2644 3 22 0
+EditAction 1595721566657 ShotServiceTest.java 2644 3 22 0
+TestEditingAction 1595721586498 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595721586670 ShotServiceTest.java 2656 3 22 0
+CodeEditingAction 1595721613827 Round.java ADD Round(Integer)/2 METHOD
+CodeEditingAction 1595721616867 Round.java RENAME Round(Integer)/2=>Round(Integer, Integer) METHOD
+CodeEditingAction 1595721621707 Round.java CHANGE Round.java CLASS
+EditAction 1595721621708 Round.java 921 6 10 0
+EditAction 1595721621912 ShotService.java 1610 3 8 0
+EditAction 1595721621923 ShotServiceTest.java 2656 3 22 0
+TestEditingAction 1595721640949 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595721640949 ShotServiceTest.java 2656 3 22 0
+TestFailureAction 1595721651079 ShotServiceTest.java FAIL

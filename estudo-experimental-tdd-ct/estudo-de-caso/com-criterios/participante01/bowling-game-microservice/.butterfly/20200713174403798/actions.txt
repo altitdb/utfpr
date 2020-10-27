@@ -1,0 +1,33 @@
+CodeEditingAction 1594673049647 RoundRepository.java CHANGE Integer getScore() METHOD
+CodeEditingAction 1594673052173 RoundRepository.java CHANGE Integer getScore() METHOD
+CodeEditingAction 1594673054225 RoundRepository.java CHANGE Integer getScore() METHOD
+CodeEditingAction 1594673057246 RoundRepository.java CHANGE Integer getScore() METHOD
+CodeEditingAction 1594673061265 RoundRepository.java CHANGE Integer getScore() METHOD
+CodeEditingAction 1594673063307 RoundRepository.java CHANGE Integer getScore() METHOD
+CodeEditingAction 1594673064334 RoundRepository.java CHANGE Integer getScore() METHOD
+CodeEditingAction 1594673067358 RoundRepository.java CHANGE Integer getScore() METHOD
+CodeEditingAction 1594673070395 RoundRepository.java CHANGE Integer getScore() METHOD
+CodeEditingAction 1594673073928 RoundRepository.java CHANGE Integer getScore() METHOD
+CodeEditingAction 1594673078952 RoundRepository.java CHANGE Integer getScore() METHOD
+CodeEditingAction 1594673083979 RoundRepository.java ADD import org.springframework.data.jpa.repository.Query IMPORT
+CodeEditingAction 1594673087073 RoundRepository.java CHANGE RoundRepository.java CLASS
+EditAction 1594673087076 RoundRepository.java 290 1 0 0
+TestPassAction 1594673092461 ScoreServiceTest.java OK
+CodeEditingAction 1594673123144 RoundRepository.java ADD import org.springframework.data.jpa.repository.JpaRepository IMPORT
+CodeEditingAction 1594673127881 RoundRepository.java CHANGE RoundRepository.java CLASS
+EditAction 1594673127882 RoundRepository.java 387 1 0 0
+EditAction 1594673128275 RoundRepository.java 387 1 0 0
+CodeEditingAction 1594673144873 RoundRepository.java ADD import java.util.UUID IMPORT
+TestPassAction 1594673146751 ScoreServiceTest.java OK
+CodeEditingAction 1594673174520 Round.java ADD Round.java CLASS
+CodeEditingAction 1594673175420 RoundRepository.java ADD import br.edu.utfpr.bowlinggame.entity.Round IMPORT
+CodeEditingAction 1594673184211 Round.java ADD import javax.persistence.Entity IMPORT
+CodeEditingAction 1594673185070 Round.java CHANGE Round.java CLASS
+EditAction 1594673185072 Round.java 108 0 0 0
+CodeEditingAction 1594673187791 RoundRepository.java CHANGE RoundRepository.java CLASS
+EditAction 1594673188050 RoundRepository.java 458 1 0 0
+TestPassAction 1594673195358 ScoreServiceTest.java OK
+CodeEditingAction 1594673228457 Round.java ADD import javax.persistence.Table IMPORT
+CodeEditingAction 1594673229019 Round.java CHANGE Round.java CLASS
+EditAction 1594673229020 Round.java 167 0 0 0
+TestPassAction 1594673235938 ScoreServiceTest.java OK

@@ -1,0 +1,26 @@
+TestEditingAction 1594486927994 GameTest.java ADD void statu FIELD ADD void statu FIELD
+TestEditingAction 1594486932008 GameTest.java RENAME statu=>void statusShouldBe FIELD RENAME statu=>void statusShouldBe FIELD
+TestEditingAction 1594486942048 GameTest.java RENAME statusShouldBe=>void Shoul FIELD RENAME statusShouldBe=>void Shoul FIELD
+TestEditingAction 1594486949091 GameTest.java ADD void c FIELD ADD void c FIELD
+TestEditingAction 1594486954112 GameTest.java RENAME c=>void shouldChange FIELD RENAME c=>void shouldChange FIELD
+TestEditingAction 1594486958632 GameTest.java RENAME shouldChange=>void should FIELD RENAME shouldChange=>void should FIELD
+TestEditingAction 1594486963154 GameTest.java RENAME should=>void shouldBeStrikeStatus FIELD RENAME should=>void shouldBeStrikeStatus FIELD
+TestEditingAction 1594486965169 GameTest.java RENAME shouldBeStrikeStatus=>void shouldBeStrikeStatus() METHOD RENAME shouldBeStrikeStatus=>void shouldBeStrikeStatus() METHOD
+TestEditingAction 1594487040077 GameTest.java ADD import org.junit.jupiter.api.Assertions IMPORT ADD import org.junit.jupiter.api.Assertions IMPORT
+TestEditingAction 1594487093276 GameTest.java ADD GameTest.java CLASS ADD GameTest.java CLASS
+TestEditingAction 1594487103934 GameTest.java CHANGE GameTest.java CLASS CHANGE GameTest.java CLASS
+EditAction 1594487103934 GameTest.java 229 1 3 1
+EditAction 1594487104058 GameTest.java 229 1 3 1
+CodeEditingAction 1594487132738 Game.java ADD String status FIELD
+CodeEditingAction 1594487162370 Game.java ADD String getStatus() METHOD
+CodeEditingAction 1594487162370 Game.java ADD void setStatus(String) METHOD
+CodeEditingAction 1594487183973 Game.java ADD void roll FIELD
+CodeEditingAction 1594487184982 Game.java RENAME roll=>void roll() METHOD
+CodeEditingAction 1594487190006 Game.java RENAME roll()=>void roll(int) METHOD
+CodeEditingAction 1594487195245 Game.java CHANGE Game.java CLASS
+EditAction 1594487195245 Game.java 154 2 1 0
+EditAction 1594487195371 GameTest.java 229 1 3 1
+TestEditingAction 1594487206402 GameTest.java CHANGE void shouldBeStrikeStatus() METHOD CHANGE void shouldBeStrikeStatus() METHOD
+TestEditingAction 1594487209412 GameTest.java ADD import org.junit.jupiter.api.Test IMPORT ADD import org.junit.jupiter.api.Test IMPORT
+TestEditingAction 1594487210609 GameTest.java CHANGE GameTest.java CLASS CHANGE GameTest.java CLASS
+EditAction 1594487210610 GameTest.java 271 1 3 1

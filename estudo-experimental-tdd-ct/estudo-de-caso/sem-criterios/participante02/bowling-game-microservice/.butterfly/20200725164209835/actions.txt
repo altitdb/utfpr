@@ -1,0 +1,551 @@
+TestCreationAction 1595706300740 ScoreControllerTest.java ADD void should_return_the_current_game_store() METHOD ADD void should_return_the_current_game_store() METHOD
+TestCreationAction 1595706381744 ScoreControllerTest.java CHANGE void should_return_the_current_game_store() METHOD CHANGE void should_return_the_current_game_store() METHOD
+TestCreationAction 1595706389311 ScoreControllerTest.java ADD MockM vc FIELD ADD MockM vc FIELD
+TestCreationAction 1595706390326 ScoreControllerTest.java REMOVE void should_return_the_current_game_store() METHOD REMOVE void should_return_the_current_game_store() METHOD
+TestCreationAction 1595706398895 ScoreControllerTest.java ADD MockMvc moco FIELD ADD MockMvc moco FIELD
+TestCreationAction 1595706400914 ScoreControllerTest.java RENAME moco=>MockMvc mock FIELD RENAME moco=>MockMvc mock FIELD
+TestCreationAction 1595706408325 ScoreControllerTest.java ADD import org.springframework.test.web.servlet.MockMvc IMPORT ADD import org.springframework.test.web.servlet.MockMvc IMPORT
+TestCreationAction 1595706421619 ScoreControllerTest.java ADD import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest IMPORT ADD import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest IMPORT
+TestCreationAction 1595706460420 ScoreControllerTest.java CHANGE MockMvc mock FIELD CHANGE MockMvc mock FIELD
+TestCreationAction 1595706461954 ScoreControllerTest.java CHANGE MockMvc mock FIELD CHANGE MockMvc mock FIELD
+TestCreationAction 1595706463994 ScoreControllerTest.java CHANGE MockMvc mock FIELD CHANGE MockMvc mock FIELD
+TestCreationAction 1595706465529 ScoreControllerTest.java CHANGE MockMvc mock FIELD CHANGE MockMvc mock FIELD
+TestCreationAction 1595706471103 ScoreControllerTest.java CHANGE MockMvc mock FIELD CHANGE MockMvc mock FIELD
+TestCreationAction 1595706472131 ScoreControllerTest.java CHANGE MockMvc mock FIELD CHANGE MockMvc mock FIELD
+TestCreationAction 1595706582732 ScoreControllerTest.java ADD import org.springframework.beans.factory.annotation.Autowired IMPORT ADD import org.springframework.beans.factory.annotation.Autowired IMPORT
+TestCreationAction 1595706659734 ScoreControllerTest.java RENAME mock=>MockMvc api FIELD RENAME mock=>MockMvc api FIELD
+TestCreationAction 1595706785576 ScoreControllerTest.java ADD ScoreControllerTest.java CLASS ADD ScoreControllerTest.java CLASS
+TestCreationAction 1595706786364 ScoreControllerTest.java ADD ScoreControllerTest.java CLASS ADD ScoreControllerTest.java CLASS
+TestCreationAction 1595706805447 ScoreControllerTest.java ADD import org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get IMPORT ADD import org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get IMPORT
+TestCreationAction 1595706814530 ScoreControllerTest.java ADD import org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath IMPORT ADD import org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath IMPORT
+TestCreationAction 1595706852361 ScoreControllerTest.java CHANGE ScoreControllerTest.java CLASS CHANGE ScoreControllerTest.java CLASS
+EditAction 1595706852362 ScoreControllerTest.java 667 1 1 0
+EditAction 1595706852642 ScoreControllerTest.java 667 1 1 0
+CodeEditingAction 1595706920251 ScoreController.java ADD ScoreController.java CLASS
+EditAction 1595706920480 ScoreControllerTest.java 667 1 1 0
+TestEditingAction 1595706955254 ScoreControllerTest.java CHANGE ScoreControllerTest.java CLASS CHANGE ScoreControllerTest.java CLASS
+EditAction 1595706955433 ScoreControllerTest.java 686 1 1 0
+TestEditingAction 1595706966053 ScoreControllerTest.java CHANGE void should_return_the_current_game_store() METHOD CHANGE void should_return_the_current_game_store() METHOD
+TestEditingAction 1595706983676 ScoreControllerTest.java ADD import org.junit.jupiter.api.Test IMPORT ADD import org.junit.jupiter.api.Test IMPORT
+TestEditingAction 1595706996477 ScoreControllerTest.java CHANGE ScoreControllerTest.java CLASS CHANGE ScoreControllerTest.java CLASS
+EditAction 1595706996477 ScoreControllerTest.java 727 1 1 0
+TestFailureAction 1595707001063 ScoreControllerTest.java FAIL
+TestFailureAction 1595707029522 ScoreControllerTest.java FAIL
+CodeEditingAction 1595707107112 ScoreController.java ADD import org.springframework.web.bind.annotation.RestController IMPORT
+CodeEditingAction 1595707193165 ScoreController.java ADD void ResponseEntity() METHOD
+CodeEditingAction 1595707209304 ScoreController.java ADD ResponseEntity<ScoreDTO> getScore() METHOD
+CodeEditingAction 1595707216868 ScoreController.java ADD import org.springframework.http.ResponseEntity IMPORT
+CodeEditingAction 1595707218890 ScoreController.java ADD import org.springframework.web.bind.annotation.GetMapping IMPORT
+CodeEditingAction 1595707241407 ScoreDTO.java ADD ScoreDTO.java CLASS
+CodeEditingAction 1595707258860 ScoreDTO.java ADD Integer score FIELD
+CodeEditingAction 1595707267361 ScoreDTO.java CHANGE ScoreDTO.java CLASS
+EditAction 1595707267362 ScoreDTO.java 97 0 0 0
+EditAction 1595707267525 ScoreDTO.java 97 0 0 0
+CodeEditingAction 1595707275963 ScoreController.java CHANGE ScoreController.java CLASS
+EditAction 1595707275963 ScoreController.java 370 1 1 0
+EditAction 1595707276134 ScoreController.java 370 1 1 0
+CodeEditingAction 1595707279379 ScoreController.java ADD import br.edu.utfpr.bowlinggame.dto.ScoreDTO IMPORT
+CodeEditingAction 1595707328976 ScoreController.java CHANGE ScoreController.java CLASS
+EditAction 1595707329143 ScoreController.java 436 1 1 0
+CodeEditingAction 1595707333274 ScoreController.java CHANGE ScoreController.java CLASS
+EditAction 1595707333275 ScoreController.java 438 1 1 0
+TestFailureAction 1595707346179 ScoreControllerTest.java FAIL
+TestFailureAction 1595707395136 ScoreControllerTest.java FAIL
+CodeEditingAction 1595707411243 ScoreDTO.java CHANGE Integer score FIELD
+CodeEditingAction 1595707412580 ScoreDTO.java CHANGE ScoreDTO.java CLASS
+EditAction 1595707412748 ScoreDTO.java 96 0 0 0
+TestPassAction 1595707431663 ScoreControllerTest.java OK
+TestCreationAction 1595707468574 ScoreControllerTest.java ADD void should_return_the_current_game_store()/2 METHOD ADD void should_return_the_current_game_store()/2 METHOD
+TestCreationAction 1595707482188 ScoreControllerTest.java RENAME should_return_the_current_game_store()/2=>void should_status_() METHOD RENAME should_return_the_current_game_store()/2=>void should_status_() METHOD
+TestCreationAction 1595707487749 ScoreControllerTest.java RENAME should_status_()=>void should_be_() METHOD RENAME should_status_()=>void should_be_() METHOD
+TestCreationAction 1595707489791 ScoreControllerTest.java RENAME should_be_()=>void should_be_status_ok() METHOD RENAME should_be_()=>void should_be_status_ok() METHOD
+TestCreationAction 1595707493838 ScoreControllerTest.java RENAME should_be_status_ok()=>void should_be_status_ok_when_get_cu() METHOD RENAME should_be_status_ok()=>void should_be_status_ok_when_get_cu() METHOD
+TestCreationAction 1595707496377 ScoreControllerTest.java RENAME should_be_status_ok_when_get_cu()=>void should_be_status_ok_when_get_the_current_() METHOD RENAME should_be_status_ok_when_get_cu()=>void should_be_status_ok_when_get_the_current_() METHOD
+TestCreationAction 1595707497913 ScoreControllerTest.java RENAME should_be_status_ok_when_get_the_current_()=>void should_be_status_ok_when_get_the_current_game_s() METHOD RENAME should_be_status_ok_when_get_the_current_()=>void should_be_status_ok_when_get_the_current_game_s() METHOD
+TestCreationAction 1595707498947 ScoreControllerTest.java RENAME should_be_status_ok_when_get_the_current_game_s()=>void should_be_status_ok_when_get_the_current_game_store() METHOD RENAME should_be_status_ok_when_get_the_current_game_s()=>void should_be_status_ok_when_get_the_current_game_store() METHOD
+TestCreationAction 1595707539766 ScoreControllerTest.java REMOVE import org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get IMPORT REMOVE import org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get IMPORT
+TestCreationAction 1595707541798 ScoreControllerTest.java ADD import org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath IMPORT ADD import org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath IMPORT
+TestCreationAction 1595707544841 ScoreControllerTest.java ADD import org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath/2 IMPORT ADD import org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath/2 IMPORT
+TestCreationAction 1595707548888 ScoreControllerTest.java RENAME import org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath/2=>import org.springframework.test.web.servlet.result.MockMvcResultMatchers.status IMPORT RENAME import org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath/2=>import org.springframework.test.web.servlet.result.MockMvcResultMatchers.status IMPORT
+TestCreationAction 1595707580786 ScoreControllerTest.java CHANGE ScoreControllerTest.java CLASS CHANGE ScoreControllerTest.java CLASS
+EditAction 1595707580786 ScoreControllerTest.java 985 2 2 0
+TestPassAction 1595707590690 ScoreControllerTest.java OK
+CodeEditingAction 1595707654971 ScoreController.java CHANGE ScoreController.java CLASS
+EditAction 1595707654972 ScoreController.java 453 1 1 0
+TestFailureAction 1595707666985 ScoreControllerTest.java FAIL
+CodeEditingAction 1595707691661 ScoreController.java CHANGE ScoreController.java CLASS
+EditAction 1595707691662 ScoreController.java 438 1 1 0
+TestPassAction 1595707701808 ScoreControllerTest.should_be_status_ok_when_get_the_current_game_store.java OK
+TestEditingAction 1595707727143 ScoreControllerTest.java RENAME should_be_status_ok_when_get_the_current_game_store()=>void should_be_status_ok_when_get_the_current_game_store_successfuly() METHOD RENAME should_be_status_ok_when_get_the_current_game_store()=>void should_be_status_ok_when_get_the_current_game_store_successfuly() METHOD
+TestEditingAction 1595707734016 ScoreControllerTest.java CHANGE ScoreControllerTest.java CLASS CHANGE ScoreControllerTest.java CLASS
+EditAction 1595707734016 ScoreControllerTest.java 997 2 2 0
+TestPassAction 1595707737900 ScoreControllerTest.java OK
+TestEditingAction 1595707863128 ScoreServiceTest.java ADD import org.junit.jupiter.api.Test IMPORT ADD import org.junit.jupiter.api.Test IMPORT
+TestEditingAction 1595708096103 ScoreServiceTest.java ADD import org.assertj.core.api.Assertions IMPORT ADD import org.assertj.core.api.Assertions IMPORT
+TestEditingAction 1595708131527 ScoreServiceTest.java ADD import br.edu.utfpr.bowlinggame.dto.ScoreDTO IMPORT ADD import br.edu.utfpr.bowlinggame.dto.ScoreDTO IMPORT
+TestEditingAction 1595708150781 ScoreServiceTest.java ADD ScoreServiceTest.java CLASS ADD ScoreServiceTest.java CLASS
+TestEditingAction 1595708162267 ScoreServiceTest.java ADD ScoreServiceTest.java CLASS ADD ScoreServiceTest.java CLASS
+TestEditingAction 1595708164141 ScoreServiceTest.java ADD Object scoreService FIELD ADD Object scoreService FIELD
+TestEditingAction 1595708169981 ScoreServiceTest.java CHANGE ScoreService scoreService FIELD CHANGE ScoreService scoreService FIELD
+TestEditingAction 1595708182184 ScoreServiceTest.java CHANGE ScoreService scoreService FIELD CHANGE ScoreService scoreService FIELD
+TestEditingAction 1595708186224 ScoreServiceTest.java ADD import org.springframework.beans.factory.annotation.Autowired IMPORT ADD import org.springframework.beans.factory.annotation.Autowired IMPORT
+TestEditingAction 1595708188765 ScoreServiceTest.java ADD import org.springframework.boot.test.context.SpringBootTest IMPORT ADD import org.springframework.boot.test.context.SpringBootTest IMPORT
+CodeEditingAction 1595708200599 ScoreService.java ADD ScoreService.java CLASS
+TestEditingAction 1595708205489 ScoreServiceTest.java CHANGE ScoreServiceTest.java CLASS CHANGE ScoreServiceTest.java CLASS
+EditAction 1595708205489 ScoreServiceTest.java 612 1 3 0
+EditAction 1595708205697 ScoreServiceTest.java 612 1 3 0
+CodeEditingAction 1595708217591 ScoreService.java ADD Object getScore() METHOD
+CodeEditingAction 1595708225311 ScoreService.java CHANGE ScoreService.java CLASS
+EditAction 1595708225312 ScoreService.java 158 1 1 0
+EditAction 1595708225502 ScoreService.java 158 1 1 0
+EditAction 1595708225505 ScoreServiceTest.java 612 1 3 0
+TestFailureAction 1595708279694 ScoreServiceTest.java FAIL
+CodeEditingAction 1595708304530 ScoreService.java ADD import br.edu.utfpr.bowlinggame.dto.ScoreDTO IMPORT
+CodeEditingAction 1595708308728 ScoreService.java CHANGE ScoreService.java CLASS
+EditAction 1595708308882 ScoreService.java 215 1 1 0
+TestFailureAction 1595708331690 ScoreServiceTest.java FAIL
+CodeEditingAction 1595708664594 ScoreDTO.java ADD int hashCode() METHOD
+CodeEditingAction 1595708664595 ScoreDTO.java ADD boolean equals(Object) METHOD
+CodeEditingAction 1595708717446 ScoreDTO.java ADD import java.util.Objects IMPORT
+CodeEditingAction 1595708721930 ScoreDTO.java CHANGE ScoreDTO.java CLASS
+EditAction 1595708721931 ScoreDTO.java 453 2 6 0
+EditAction 1595708722135 ScoreService.java 215 1 1 0
+TestPassAction 1595708733085 ScoreServiceTest.java OK
+CodeEditingAction 1595708815323 ScoreService.java CHANGE ScoreDTO getScore() METHOD
+CodeEditingAction 1595708819491 ScoreService.java CHANGE ScoreService.java CLASS
+EditAction 1595708819672 ScoreService.java 217 1 1 0
+TestPassAction 1595708828105 ScoreServiceTest.java OK
+TestPassAction 1595708842211 bowling-game-microservice.java OK
+TestEditingAction 1595708928400 RoundRepositoryTest.java ADD import org.junit.jupiter.api.Test IMPORT ADD import org.junit.jupiter.api.Test IMPORT
+TestCreationAction 1595708936970 RoundRepositoryTest.java ADD void should_return_the_current_score() METHOD ADD void should_return_the_current_score() METHOD
+TestCreationAction 1595708947107 RoundRepositoryTest.java CHANGE void should_return_the_current_score() METHOD CHANGE void should_return_the_current_score() METHOD
+TestCreationAction 1595708950145 RoundRepositoryTest.java CHANGE void should_return_the_current_score() METHOD CHANGE void should_return_the_current_score() METHOD
+TestCreationAction 1595708954697 RoundRepositoryTest.java CHANGE void should_return_the_current_score() METHOD CHANGE void should_return_the_current_score() METHOD
+TestCreationAction 1595708967304 RoundRepositoryTest.java ADD RoundRepository repo FIELD ADD RoundRepository repo FIELD
+TestCreationAction 1595708973846 RoundRepositoryTest.java ADD import org.springframework.beans.factory.annotation.Autowired IMPORT ADD import org.springframework.beans.factory.annotation.Autowired IMPORT
+TestCreationAction 1595709012720 RoundRepositoryTest.java ADD import br.edu.utfpr.bowlinggame.dto.ScoreDTO IMPORT ADD import br.edu.utfpr.bowlinggame.dto.ScoreDTO IMPORT
+TestCreationAction 1595709053121 RoundRepositoryTest.java ADD import org.assertj.core.api.Assertions IMPORT ADD import org.assertj.core.api.Assertions IMPORT
+CodeEditingAction 1595709101278 RoundRespository.java ADD RoundRespository.java CLASS
+TestEditingAction 1595709115633 RoundRepositoryTest.java CHANGE RoundRepository repo FIELD CHANGE RoundRepository repo FIELD
+TestEditingAction 1595709116235 RoundRepositoryTest.java CHANGE RoundRepositoryTest.java CLASS CHANGE RoundRepositoryTest.java CLASS
+EditAction 1595709116237 RoundRepositoryTest.java 680 1 3 0
+EditAction 1595709116456 RoundRepositoryTest.java 680 1 3 0
+TestEditingAction 1595709135278 RoundRepositoryTest.java CHANGE Round repo FIELD CHANGE Round repo FIELD
+TestEditingAction 1595709136814 RoundRepositoryTest.java CHANGE RoundR repo FIELD CHANGE RoundR repo FIELD
+TestEditingAction 1595709138852 RoundRepositoryTest.java CHANGE RoundResp repo FIELD CHANGE RoundResp repo FIELD
+TestEditingAction 1595709139887 RoundRepositoryTest.java CHANGE RoundRespo repo FIELD CHANGE RoundRespo repo FIELD
+TestEditingAction 1595709142428 RoundRepositoryTest.java CHANGE RoundRespository repo FIELD CHANGE RoundRespository repo FIELD
+TestEditingAction 1595709145759 RoundRepositoryTest.java CHANGE RoundRepositoryTest.java CLASS CHANGE RoundRepositoryTest.java CLASS
+EditAction 1595709145992 RoundRepositoryTest.java 681 1 3 0
+CodeEditingAction 1595709192439 RoundRespository.java ADD Object getScore() METHOD
+CodeEditingAction 1595709207943 RoundRespository.java CHANGE RoundRespository.java CLASS
+EditAction 1595709207943 RoundRespository.java 165 1 1 0
+EditAction 1595709208124 RoundRespository.java 165 1 1 0
+EditAction 1595709208128 RoundRepositoryTest.java 681 1 3 0
+TestFailureAction 1595709250279 RoundRepositoryTest.java FAIL
+CodeEditingAction 1595709390112 RoundRespository.java ADD import org.springframework.stereotype.Repository IMPORT
+CodeEditingAction 1595709393540 RoundRespository.java CHANGE RoundRespository.java CLASS
+EditAction 1595709393715 RoundRespository.java 228 1 1 0
+TestFailureAction 1595709412682 RoundRepositoryTest.java FAIL
+CodeEditingAction 1595709453060 bowling-game-microservice RENAME RoundRespository.java=>RoundRepository.java CLASS
+TestEditingAction 1595709453061 RoundRepositoryTest.java CHANGE RoundRepository repo FIELD CHANGE RoundRepository repo FIELD
+EditAction 1595709453062 RoundRepositoryTest.java 680 1 3 0
+EditAction 1595709453542 RoundRepository.java 227 1 1 0
+TestFailureAction 1595709470812 RoundRepositoryTest.java FAIL
+CodeEditingAction 1595709633287 RoundRepository.java ADD import org.springframework.* IMPORT
+CodeEditingAction 1595709638828 RoundRepository.java REMOVE import org.springframework.stereotype.Repository IMPORT
+CodeEditingAction 1595709646413 RoundRepository.java ADD import org.springframework.data.jpa.re IMPORT
+CodeEditingAction 1595709647425 RoundRepository.java RENAME import org.springframework.data.jpa.re=>import org.springframework.data.jpa.repos IMPORT
+CodeEditingAction 1595709648943 RoundRepository.java REMOVE import org.springframework.stereotype.Repository IMPORT
+CodeEditingAction 1595709650461 RoundRepository.java ADD import org.springframework.data.jpa.repository.Jp IMPORT
+CodeEditingAction 1595709651983 RoundRepository.java RENAME import org.springframework.data.jpa.repository.Jp=>import org.springframework.data.jpa.repository.JpaRepository IMPORT
+CodeEditingAction 1595709667110 RoundRepository.java ADD import java.util.UUID IMPORT
+CodeEditingAction 1595709680205 RoundRepository.java CHANGE Object getScore() METHOD
+CodeEditingAction 1595709685450 RoundRepository.java CHANGE RoundRepository.java CLASS
+EditAction 1595709685643 RoundRepository.java 362 1 1 0
+TestFailureAction 1595709702734 RoundRepositoryTest.java FAIL
+CodeEditingAction 1595709739359 Round.java ADD Round.java CLASS
+CodeEditingAction 1595709755350 Round.java ADD import javax.persistence.Entity IMPORT
+CodeEditingAction 1595709768465 Round.java ADD UUID id FIELD
+CodeEditingAction 1595709773507 Round.java ADD import java.util.UUID IMPORT
+CodeEditingAction 1595709777434 Round.java CHANGE Round.java CLASS
+EditAction 1595709777434 Round.java 159 0 0 0
+EditAction 1595709777603 Round.java 159 0 0 0
+CodeEditingAction 1595709786108 Round.java ADD import javax.persistence.Id IMPORT
+CodeEditingAction 1595709787892 Round.java CHANGE Round.java CLASS
+EditAction 1595709788060 Round.java 188 0 0 0
+TestEditingAction 1595709794703 RoundRepositoryTest.java CHANGE RoundRepositoryTest.java CLASS CHANGE RoundRepositoryTest.java CLASS
+EditAction 1595709794704 RoundRepositoryTest.java 681 1 3 0
+TestFailureAction 1595709807331 RoundRepositoryTest.java FAIL
+CodeEditingAction 1595709828042 RoundRepository.java ADD import br.edu.utfpr.bowlinggame.entity.Round IMPORT
+CodeEditingAction 1595709829870 RoundRepository.java CHANGE RoundRepository.java CLASS
+EditAction 1595709830069 RoundRepository.java 408 1 1 0
+TestFailureAction 1595709843408 RoundRepositoryTest.java FAIL
+CodeEditingAction 1595709867279 RoundRepository.java ADD import br.edu.utfpr.bowlinggame.dto.ScoreDTO IMPORT
+CodeEditingAction 1595709868741 RoundRepository.java CHANGE RoundRepository.java CLASS
+EditAction 1595709868910 RoundRepository.java 464 1 1 0
+TestPassAction 1595709890570 RoundRepositoryTest.java OK
+TestEditingAction 1595709914608 RoundRepositoryTest.java CHANGE RoundRepositoryTest.java CLASS CHANGE RoundRepositoryTest.java CLASS
+EditAction 1595709914609 RoundRepositoryTest.java 642 1 2 0
+EditAction 1595709914841 RoundRepositoryTest.java 642 1 2 0
+TestEditingAction 1595709918944 RoundRepositoryTest.java REMOVE import org.assertj.core.api.Assertions IMPORT REMOVE import org.assertj.core.api.Assertions IMPORT
+TestEditingAction 1595709919562 RoundRepositoryTest.java CHANGE RoundRepositoryTest.java CLASS CHANGE RoundRepositoryTest.java CLASS
+EditAction 1595709919747 RoundRepositoryTest.java 596 1 2 0
+TestFailureAction 1595709932495 RoundRepositoryTest.java FAIL
+CodeEditingAction 1595709946673 RoundRepository.java CHANGE Integer getScore() METHOD
+CodeEditingAction 1595709961294 RoundRepository.java REMOVE import org.springframework.stereotype.Repository IMPORT
+CodeEditingAction 1595709961760 RoundRepository.java CHANGE RoundRepository.java CLASS
+EditAction 1595709961936 RoundRepository.java 407 1 1 0
+TestPassAction 1595709975137 RoundRepositoryTest.java OK
+CodeEditingAction 1595710005975 RoundRepository.java CHANGE RoundRepository.java CLASS
+TestPassAction 1595710019202 RoundRepositoryTest.java OK
+TestPassAction 1595710038243 bowling-game-microservice.java OK
+TestEditingAction 1595710330662 RoundDTOTest.java ADD RoundDTOTest.java CLASS ADD RoundDTOTest.java CLASS
+TestEditingAction 1595710344152 RoundDTOTest.java ADD void should FIELD ADD void should FIELD
+TestEditingAction 1595710347185 RoundDTOTest.java RENAME should=>void should_support_ FIELD RENAME should=>void should_support_ FIELD
+TestEditingAction 1595710351722 RoundDTOTest.java RENAME should_support_=>void should_accept_ FIELD RENAME should_support_=>void should_accept_ FIELD
+TestEditingAction 1595710354243 RoundDTOTest.java RENAME should_accept_=>void should_accept_firt FIELD RENAME should_accept_=>void should_accept_firt FIELD
+TestEditingAction 1595710355255 RoundDTOTest.java RENAME should_accept_firt=>void should_accept_firt_ FIELD RENAME should_accept_firt=>void should_accept_firt_ FIELD
+TestEditingAction 1595710359800 RoundDTOTest.java RENAME should_accept_firt_=>void should_accept_firt_short() METHOD RENAME should_accept_firt_=>void should_accept_firt_short() METHOD
+TestEditingAction 1595710369899 RoundDTOTest.java ADD import org.junit.jupiter.api.Test IMPORT ADD import org.junit.jupiter.api.Test IMPORT
+TestEditingAction 1595710419370 RoundDTOTest.java ADD import org.assertj.core.api.Assertions IMPORT ADD import org.assertj.core.api.Assertions IMPORT
+CodeEditingAction 1595710450383 RoundDTO.java ADD RoundDTO.java CLASS
+CodeEditingAction 1595710469898 RoundDTO.java ADD static RoundDTOBuilder builder() METHOD
+CodeEditingAction 1595710487028 RoundDTO.java CHANGE static B builder() METHOD
+CodeEditingAction 1595710488544 RoundDTO.java CHANGE static Builder builder() METHOD
+CodeEditingAction 1595710514198 RoundDTO.java RENAME Builder=>static void Builder() METHOD
+CodeEditingAction 1595710515713 RoundDTO.java CHANGE cstatic Builder() METHOD
+CodeEditingAction 1595710517730 RoundDTO.java CHANGE static void Builder() METHOD
+CodeEditingAction 1595710518744 RoundDTO.java RENAME Builder()=>class Builder null
+CodeEditingAction 1595710550959 RoundDTO.java ADD RoundDTO build() METHOD
+CodeEditingAction 1595710575636 RoundDTO.java ADD Integer get FIELD
+CodeEditingAction 1595710577159 RoundDTO.java RENAME get=>Integer getFirst FIELD
+CodeEditingAction 1595710584710 RoundDTO.java RENAME getFirst=>Integer getFirstShot() METHOD
+CodeEditingAction 1595710609402 RoundDTO.java ADD void with FIELD
+CodeEditingAction 1595710613938 RoundDTO.java RENAME with=>void withFirstShot() METHOD
+CodeEditingAction 1595710627054 RoundDTO.java RENAME withFirstShot()=>void withFirstShot(Integer) METHOD
+CodeEditingAction 1595710634619 RoundDTO.java CHANGE Builder withFirstShot(Integer) METHOD
+CodeEditingAction 1595710646833 RoundDTO.java CHANGE RoundDTO.java CLASS
+EditAction 1595710646834 RoundDTO.java 360 4 4 0
+TestEditingAction 1595710648689 RoundDTOTest.java CHANGE RoundDTOTest.java CLASS CHANGE RoundDTOTest.java CLASS
+EditAction 1595710648689 RoundDTOTest.java 340 1 2 0
+EditAction 1595710648869 RoundDTOTest.java 340 1 2 0
+TestEditingAction 1595710661581 RoundDTOTest.java CHANGE RoundDTOTest.java CLASS CHANGE RoundDTOTest.java CLASS
+EditAction 1595710661627 RoundDTOTest.java 339 1 2 0
+TestFailureAction 1595710662809 RoundDTOTest.java FAIL
+CodeEditingAction 1595710682558 RoundDTO.java CHANGE RoundDTO.java CLASS
+EditAction 1595710682558 RoundDTO.java 345 4 3 0
+EditAction 1595710682604 RoundDTO.java 345 4 3 0
+TestFailureAction 1595710687882 RoundDTOTest.java FAIL
+CodeEditingAction 1595710697267 RoundDTO.java CHANGE RoundDTO.java CLASS
+EditAction 1595710697267 RoundDTO.java 360 4 4 0
+EditAction 1595710697427 RoundDTO.java 360 4 4 0
+CodeEditingAction 1595710702163 RoundDTO.java CHANGE RoundDTO.java CLASS
+EditAction 1595710702163 RoundDTO.java 358 4 4 0
+TestFailureAction 1595710708779 RoundDTOTest.java FAIL
+CodeEditingAction 1595710742193 RoundDTO.java CHANGE RoundDTO.java CLASS
+EditAction 1595710742194 RoundDTO.java 368 4 4 0
+TestPassAction 1595710747578 RoundDTOTest.java OK
+TestEditingAction 1595710767413 RoundDTOTest.java CHANGE RoundDTOTest.java CLASS CHANGE RoundDTOTest.java CLASS
+EditAction 1595710767414 RoundDTOTest.java 336 1 2 0
+CodeEditingAction 1595710802720 RoundDTO.java ADD Integer prive FIELD
+CodeEditingAction 1595710804235 RoundDTO.java RENAME prive=>Integer priv FIELD
+CodeEditingAction 1595710805247 RoundDTO.java REMOVE Builder withFirstShot(Integer) METHOD
+CodeEditingAction 1595710810288 RoundDTO.java ADD Integer firstShot FIELD
+CodeEditingAction 1595710828918 RoundDTO.java ADD RoundDTO() METHOD
+CodeEditingAction 1595710832963 RoundDTO.java RENAME RoundDTO()=>RoundDTO(Builder) METHOD
+CodeEditingAction 1595710852137 RoundDTO.java ADD Integer firstShot FIELD
+CodeEditingAction 1595710864196 RoundDTO.java CHANGE RoundDTO.java CLASS
+EditAction 1595710864197 RoundDTO.java 546 5 6 0
+TestPassAction 1595710871901 RoundDTOTest.java OK
+TestCreationAction 1595711084923 RoundDTOTest.java ADD void should_accept_firt_short()/2 METHOD ADD void should_accept_firt_short()/2 METHOD
+TestCreationAction 1595711091989 RoundDTOTest.java RENAME should_accept_firt_short()/2=>void should_accept_score() METHOD RENAME should_accept_firt_short()/2=>void should_accept_score() METHOD
+CodeEditingAction 1595711124002 RoundDTO.java ADD Builder withScore(Integer) METHOD
+CodeEditingAction 1595711139107 RoundDTO.java ADD Integer getScore() METHOD
+CodeEditingAction 1595711145575 RoundDTO.java CHANGE RoundDTO.java CLASS
+EditAction 1595711145576 RoundDTO.java 662 7 8 0
+TestEditingAction 1595711153434 RoundDTOTest.java CHANGE RoundDTOTest.java CLASS CHANGE RoundDTOTest.java CLASS
+EditAction 1595711153435 RoundDTOTest.java 513 2 4 0
+TestFailureAction 1595711154571 RoundDTOTest.java FAIL
+CodeEditingAction 1595711166526 RoundDTO.java CHANGE RoundDTO.java CLASS
+EditAction 1595711166526 RoundDTO.java 660 7 8 0
+TestPassAction 1595711174136 RoundDTOTest.java OK
+CodeEditingAction 1595711198431 RoundDTO.java ADD Integer score FIELD
+CodeEditingAction 1595711212533 RoundDTO.java ADD Integer score FIELD
+CodeEditingAction 1595711218031 RoundDTO.java CHANGE RoundDTO.java CLASS
+EditAction 1595711218031 RoundDTO.java 765 7 10 0
+TestPassAction 1595711224566 RoundDTOTest.java OK
+TestPassAction 1595711238573 RoundDTOTest.java OK
+TestEditingAction 1595711279626 RoundsDTOTest.java ADD RoundsDTOTest.java CLASS ADD RoundsDTOTest.java CLASS
+TestEditingAction 1595711295585 RoundsDTOTest.java ADD import org.junit.jupiter.api.Test IMPORT ADD import org.junit.jupiter.api.Test IMPORT
+TestEditingAction 1595711308693 RoundsDTOTest.java ADD void should_accept FIELD ADD void should_accept FIELD
+TestEditingAction 1595711311724 RoundsDTOTest.java RENAME should_accept=>void should_accept_ FIELD RENAME should_accept=>void should_accept_ FIELD
+TestEditingAction 1595711313742 RoundsDTOTest.java RENAME should_accept_=>void should_accept_rounds() METHOD RENAME should_accept_=>void should_accept_rounds() METHOD
+TestEditingAction 1595711375794 RoundsDTOTest.java ADD import org.assertj.core.api.Assertions IMPORT ADD import org.assertj.core.api.Assertions IMPORT
+TestEditingAction 1595711435463 RoundsDTOTest.java ADD import java.util.List IMPORT ADD import java.util.List IMPORT
+TestEditingAction 1595711436997 RoundsDTOTest.java REMOVE import org.assertj.core.api.Assertions IMPORT REMOVE import org.assertj.core.api.Assertions IMPORT
+TestEditingAction 1595711490141 RoundsDTOTest.java ADD import java.util.List IMPORT ADD import java.util.List IMPORT
+CodeEditingAction 1595711501707 RoundsDTO.java ADD RoundsDTO.java CLASS
+CodeEditingAction 1595711511171 RoundsDTO.java ADD static Object builder() METHOD
+TestEditingAction 1595711516931 RoundsDTOTest.java ADD RoundsDTOTest.java CLASS ADD RoundsDTOTest.java CLASS
+CodeEditingAction 1595711584536 RoundsDTO.java CHANGE static Builder builder() METHOD
+CodeEditingAction 1595711598126 RoundsDTO.java RENAME B=>class Builder null
+CodeEditingAction 1595711600358 RoundsDTO.java CHANGE RoundsDTO.java CLASS
+EditAction 1595711600359 RoundsDTO.java 197 1 1 0
+EditAction 1595711600532 RoundsDTO.java 197 1 1 0
+CodeEditingAction 1595711608380 RoundsDTO.java ADD import java.util.List IMPORT
+CodeEditingAction 1595711614743 RoundsDTO.java CHANGE Builder withRounds(List<RoundDTO>) METHOD
+CodeEditingAction 1595711617266 RoundsDTO.java CHANGE Builder withRounds(List<RoundDTO>) METHOD
+CodeEditingAction 1595711621078 RoundsDTO.java CHANGE RoundsDTO.java CLASS
+EditAction 1595711621241 RoundsDTO.java 333 2 2 0
+CodeEditingAction 1595711627652 RoundsDTO.java ADD Object build() METHOD
+CodeEditingAction 1595711635411 RoundsDTO.java CHANGE RoundsDTO build() METHOD
+CodeEditingAction 1595711635642 RoundsDTO.java CHANGE RoundsDTO.java CLASS
+EditAction 1595711635643 RoundsDTO.java 421 3 3 0
+EditAction 1595711635815 RoundsDTO.java 421 3 3 0
+CodeEditingAction 1595711646799 RoundsDTO.java ADD import java.util.function.IntPredicate IMPORT
+CodeEditingAction 1595711654051 RoundsDTO.java CHANGE List<RoundDT> getRounds() METHOD
+CodeEditingAction 1595711655570 RoundsDTO.java CHANGE List<RoundDTO> getRounds() METHOD
+CodeEditingAction 1595711659229 RoundsDTO.java CHANGE RoundsDTO.java CLASS
+EditAction 1595711659387 RoundsDTO.java 554 4 4 0
+TestEditingAction 1595711805434 RoundsDTOTest.java CHANGE RoundsDTOTest.java CLASS CHANGE RoundsDTOTest.java CLASS
+EditAction 1595711805435 RoundsDTOTest.java 500 1 4 0
+CodeEditingAction 1595711824627 RoundsDTO.java CHANGE RoundsDTO.java CLASS
+EditAction 1595711824787 RoundsDTO.java 565 4 4 0
+TestFailureAction 1595711834030 RoundsDTOTest.java FAIL
+CodeEditingAction 1595713115409 RoundsDTO.java ADD import java.util.List.of IMPORT
+CodeEditingAction 1595713117437 RoundsDTO.java REMOVE import java.util.List IMPORT
+CodeEditingAction 1595713144636 RoundsDTO.java CHANGE RoundsDTO.java CLASS
+EditAction 1595713144637 RoundsDTO.java 643 4 4 0
+EditAction 1595713144849 RoundsDTO.java 643 4 4 0
+TestFailureAction 1595713152671 RoundsDTOTest.java FAIL
+CodeEditingAction 1595713404980 RoundsDTO.java REMOVE import java.util.List IMPORT
+CodeEditingAction 1595713405046 RoundsDTO.java CHANGE RoundsDTO.java CLASS
+EditAction 1595713405225 RoundsDTO.java 603 4 4 0
+TestFailureAction 1595713418079 RoundsDTOTest.java FAIL
+CodeEditingAction 1595713456194 RoundsDTO.java CHANGE RoundsDTO.java CLASS
+EditAction 1595713456357 RoundsDTO.java 612 4 4 0
+TestFailureAction 1595713462529 RoundsDTOTest.java FAIL
+TestFailureAction 1595713474378 RoundsDTOTest.java FAIL
+CodeEditingAction 1595713504796 RoundsDTO.java CHANGE RoundsDTO.java CLASS
+EditAction 1595713504796 RoundsDTO.java 612 4 4 0
+EditAction 1595713504964 RoundsDTO.java 612 4 4 0
+TestFailureAction 1595713510904 RoundsDTOTest.java FAIL
+CodeEditingAction 1595713535538 RoundDTO.java ADD import java.util.Objects IMPORT
+CodeEditingAction 1595713539545 RoundDTO.java CHANGE RoundDTO.java CLASS
+EditAction 1595713539546 RoundDTO.java 1177 9 16 0
+EditAction 1595713539769 RoundsDTO.java 612 4 4 0
+TestPassAction 1595713553675 RoundsDTOTest.java OK
+CodeEditingAction 1595713575117 RoundsDTO.java ADD RoundsDTO.java CLASS
+CodeEditingAction 1595713578001 RoundsDTO.java ADD List<RoundDTO> rounds FIELD
+CodeEditingAction 1595713581447 RoundsDTO.java CHANGE RoundsDTO.java CLASS
+EditAction 1595713581624 RoundsDTO.java 532 4 4 0
+CodeEditingAction 1595713593179 RoundsDTO.java ADD List<RoundDTO> rounds FIELD
+CodeEditingAction 1595713594005 RoundsDTO.java CHANGE RoundsDTO.java CLASS
+EditAction 1595713594170 RoundsDTO.java 536 4 4 0
+CodeEditingAction 1595713617855 RoundsDTO.java CHANGE Builder withRounds(List<RoundDTO>) METHOD
+CodeEditingAction 1595713621884 RoundsDTO.java ADD List<RoundDTO> rounds FIELD
+CodeEditingAction 1595713646565 RoundsDTO.java ADD RoundsDTO(Builder) METHOD
+CodeEditingAction 1595713657796 RoundsDTO.java CHANGE RoundsDTO.java CLASS
+EditAction 1595713657984 RoundsDTO.java 600 5 6 0
+CodeEditingAction 1595713663109 RoundsDTO.java CHANGE RoundsDTO.java CLASS
+CodeEditingAction 1595713667323 RoundsDTO.java CHANGE RoundsDTO.java CLASS
+EditAction 1595713667324 RoundsDTO.java 560 5 6 0
+TestPassAction 1595713675847 RoundsDTOTest.java OK
+TestEditingAction 1595713789460 ShotServiceTest.java ADD import org.junit.jupiter.api.Test IMPORT ADD import org.junit.jupiter.api.Test IMPORT
+TestEditingAction 1595713795012 ShotServiceTest.java ADD void should_save_ FIELD ADD void should_save_ FIELD
+TestEditingAction 1595713797537 ShotServiceTest.java RENAME should_save_=>void should_save_a_shot() METHOD RENAME should_save_=>void should_save_a_shot() METHOD
+TestEditingAction 1595713811524 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595713811525 ShotServiceTest.java 206 1 0 0
+EditAction 1595713811687 ShotServiceTest.java 206 1 0 0
+TestEditingAction 1595713824268 ShotServiceTest.java ADD ShotService service FIELD ADD ShotService service FIELD
+TestEditingAction 1595713865078 ShotServiceTest.java RENAME service=>ShotService unit FIELD RENAME service=>ShotService unit FIELD
+TestEditingAction 1595713866371 ShotServiceTest.java ADD ShotServiceTest.java CLASS ADD ShotServiceTest.java CLASS
+TestEditingAction 1595713896011 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595713896011 ShotServiceTest.java 535 1 0 0
+EditAction 1595713896222 ShotServiceTest.java 535 1 0 0
+TestEditingAction 1595713901349 ShotServiceTest.java ADD import br.edu.utfpr.bowlinggame.dto.RoundDTO IMPORT ADD import br.edu.utfpr.bowlinggame.dto.RoundDTO IMPORT
+TestEditingAction 1595713905388 ShotServiceTest.java ADD import br.edu.utfpr.bowlinggame.dto.RoundsDTO IMPORT ADD import br.edu.utfpr.bowlinggame.dto.RoundsDTO IMPORT
+TestEditingAction 1595713918509 ShotServiceTest.java ADD import java.util.Collections IMPORT ADD import java.util.Collections IMPORT
+TestEditingAction 1595713922548 ShotServiceTest.java ADD import org.springframework.beans.factory.annotation.Autowired IMPORT ADD import org.springframework.beans.factory.annotation.Autowired IMPORT
+TestEditingAction 1595713924582 ShotServiceTest.java ADD import org.springframework.boot.test.context.SpringBootTest IMPORT ADD import org.springframework.boot.test.context.SpringBootTest IMPORT
+TestEditingAction 1595713927031 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595713927249 ShotServiceTest.java 772 1 0 0
+TestEditingAction 1595713960696 ShotServiceTest.java ADD ShotServiceTest.java CLASS ADD ShotServiceTest.java CLASS
+TestEditingAction 1595713963381 ShotServiceTest.java ADD import org.junit.Assert.assertThat IMPORT ADD import org.junit.Assert.assertThat IMPORT
+CodeEditingAction 1595713983868 ShotService.java ADD ShotService.java CLASS
+EditAction 1595713984041 ShotServiceTest.java 772 1 4 0
+TestEditingAction 1595714007135 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595714007135 ShotServiceTest.java 856 1 4 0
+EditAction 1595714007309 ShotServiceTest.java 856 1 4 0
+CodeEditingAction 1595714016931 ShotService.java ADD Object shot(int) METHOD
+CodeEditingAction 1595714019720 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595714019721 ShotService.java 158 1 1 0
+EditAction 1595714019891 ShotService.java 158 1 1 0
+EditAction 1595714019895 ShotServiceTest.java 856 1 4 0
+TestEditingAction 1595714023654 ShotServiceTest.java ADD ShotServiceTest.java CLASS ADD ShotServiceTest.java CLASS
+TestEditingAction 1595714024974 ShotServiceTest.java ADD ShotServiceTest.java CLASS ADD ShotServiceTest.java CLASS
+TestEditingAction 1595714034936 ShotServiceTest.java ADD ShotServiceTest.java CLASS ADD ShotServiceTest.java CLASS
+TestEditingAction 1595714046043 ShotServiceTest.java ADD ShotServiceTest.java CLASS ADD ShotServiceTest.java CLASS
+TestEditingAction 1595714048691 ShotServiceTest.java ADD import org.assertj.core.api.Assertions IMPORT ADD import org.assertj.core.api.Assertions IMPORT
+TestEditingAction 1595714051390 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595714051573 ShotServiceTest.java 907 1 4 0
+TestFailureAction 1595714060699 ShotServiceTest.java FAIL
+CodeEditingAction 1595714093894 ShotService.java ADD import java.util.Collections IMPORT
+CodeEditingAction 1595714100938 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595714101101 ShotService.java 491 1 3 0
+TestFailureAction 1595714121041 ShotServiceTest.java FAIL
+CodeEditingAction 1595714142671 RoundsDTO.java ADD import java.util.Objects IMPORT
+CodeEditingAction 1595714144174 RoundsDTO.java CHANGE RoundsDTO.java CLASS
+EditAction 1595714144175 RoundsDTO.java 919 7 12 0
+EditAction 1595714144405 ShotServiceTest.java 907 1 4 0
+TestPassAction 1595714154961 ShotServiceTest.java OK
+CodeEditingAction 1595714166830 ShotService.java CHANGE List<> shot(int) METHOD
+CodeEditingAction 1595714168350 ShotService.java CHANGE List<Sh> shot(int) METHOD
+CodeEditingAction 1595714173401 ShotService.java CHANGE List<RoundsDTO> shot(int) METHOD
+CodeEditingAction 1595714175919 ShotService.java CHANGE RoundsDTO shot(int) METHOD
+CodeEditingAction 1595714180185 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595714180186 ShotService.java 494 1 3 0
+EditAction 1595714180381 ShotServiceTest.java 907 1 4 0
+CodeEditingAction 1595714185443 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595714185443 ShotService.java 497 1 3 0
+TestPassAction 1595714193955 ShotServiceTest.java OK
+TestCreationAction 1595714245857 ShotServiceTest.java ADD void should_save_a_shot()/2 METHOD ADD void should_save_a_shot()/2 METHOD
+TestCreationAction 1595714254447 ShotServiceTest.java RENAME should_save_a_shot()/2=>void should_save_the_second_shot() METHOD RENAME should_save_a_shot()/2=>void should_save_the_second_shot() METHOD
+TestCreationAction 1595714256382 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595714256382 ShotServiceTest.java 1294 2 8 0
+EditAction 1595714256590 ShotServiceTest.java 1294 2 8 0
+TestCreationAction 1595714272483 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595714272483 ShotServiceTest.java 1293 2 8 0
+EditAction 1595714272682 ShotServiceTest.java 1293 2 8 0
+TestCreationAction 1595714293831 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595714293831 ShotServiceTest.java 911 1 4 0
+EditAction 1595714294031 ShotServiceTest.java 911 1 4 0
+TestCreationAction 1595714296362 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595714296363 ShotServiceTest.java 909 1 4 0
+EditAction 1595714296555 ShotServiceTest.java 909 1 4 0
+TestCreationAction 1595714310082 RoundDTOTest.java ADD void should_accept_firt_short()/2 METHOD ADD void should_accept_firt_short()/2 METHOD
+TestCreationAction 1595714315631 RoundDTOTest.java RENAME should_accept_firt_short()/2=>void should_accept_second_short() METHOD RENAME should_accept_firt_short()/2=>void should_accept_second_short() METHOD
+CodeEditingAction 1595714339320 RoundDTO.java ADD Builder with FIELD
+CodeEditingAction 1595714341841 RoundDTO.java RENAME with=>Builder withSecondShot FIELD
+CodeEditingAction 1595714347878 RoundDTO.java RENAME withSecondShot=>Builder withSecondShot(Integer) METHOD
+CodeEditingAction 1595714352650 RoundDTO.java CHANGE RoundDTO.java CLASS
+EditAction 1595714352650 RoundDTO.java 1258 10 17 0
+EditAction 1595714352901 ShotServiceTest.java 909 1 4 0
+CodeEditingAction 1595714363511 RoundDTO.java ADD Integer getSecondShot() METHOD
+CodeEditingAction 1595714379547 RoundDTO.java CHANGE RoundDTO.java CLASS
+EditAction 1595714379547 RoundDTO.java 1312 11 18 0
+EditAction 1595714379749 ShotServiceTest.java 909 1 4 0
+TestEditingAction 1595714382831 RoundDTOTest.java CHANGE RoundDTOTest.java CLASS CHANGE RoundDTOTest.java CLASS
+EditAction 1595714382831 RoundDTOTest.java 707 3 6 0
+TestFailureAction 1595714391258 RoundDTOTest.java FAIL
+CodeEditingAction 1595714398553 RoundDTO.java CHANGE RoundDTO.java CLASS
+EditAction 1595714398553 RoundDTO.java 1310 11 18 0
+TestPassAction 1595714405229 RoundDTOTest.java OK
+CodeEditingAction 1595714430555 RoundDTO.java ADD Integer secondShot FIELD
+CodeEditingAction 1595714441630 RoundDTO.java ADD Integer secondShot FIELD
+CodeEditingAction 1595714458614 RoundDTO.java CHANGE RoundDTO.java CLASS
+EditAction 1595714458614 RoundDTO.java 1438 11 20 0
+EditAction 1595714458820 RoundDTO.java 1438 11 20 0
+EditAction 1595714458829 ShotServiceTest.java 909 1 4 0
+TestFailureAction 1595714494518 RoundDTOTest.java FAIL
+CodeEditingAction 1595714518120 RoundDTO.java CHANGE RoundDTO.java CLASS
+EditAction 1595714518296 RoundDTO.java 1446 11 20 0
+TestPassAction 1595714527073 RoundDTOTest.java OK
+TestPassAction 1595714543191 bowling-game-microservice.java OK
+TestEditingAction 1595714562527 ShotServiceTest.java RENAME should_save_a_shot()=>void should_save_the_first_shot() METHOD RENAME should_save_a_shot()=>void should_save_the_first_shot() METHOD
+EditAction 1595714562532 ShotServiceTest.java 917 1 4 0
+EditAction 1595714562732 ShotServiceTest.java 917 1 4 0
+TestPassAction 1595714568808 ShotServiceTest.should_save_the_first_shot.java OK
+TestCreationAction 1595714576161 ShotServiceTest.java ADD void should_save_the_first_shot()/2 METHOD ADD void should_save_the_first_shot()/2 METHOD
+TestCreationAction 1595714581216 ShotServiceTest.java RENAME should_save_the_first_shot()/2=>void should_save_the_second_shot() METHOD RENAME should_save_the_first_shot()/2=>void should_save_the_second_shot() METHOD
+TestCreationAction 1595714617826 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595714617827 ShotServiceTest.java 1334 2 8 0
+EditAction 1595714618030 ShotServiceTest.java 1334 2 8 0
+TestCreationAction 1595714634238 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595714634238 ShotServiceTest.java 1333 2 8 0
+EditAction 1595714634440 ShotServiceTest.java 1333 2 8 0
+TestFailureAction 1595714647399 ShotServiceTest.java FAIL
+CodeEditingAction 1595714678779 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595714678780 ShotService.java 789 1 4 0
+CodeEditingAction 1595714682604 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595714682604 ShotService.java 793 1 4 0
+CodeEditingAction 1595714706436 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595714706436 ShotService.java 824 1 4 0
+TestPassAction 1595714717366 ShotServiceTest.java OK
+TestEditingAction 1595714728703 ShotServiceTest.java REMOVE ShotServiceTest.java CLASS REMOVE ShotServiceTest.java CLASS
+CodeEditingAction 1595714746350 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595714746351 ShotService.java 831 1 4 0
+EditAction 1595714746522 ShotService.java 831 1 4 0
+CodeEditingAction 1595714751136 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595714751309 ShotService.java 830 1 4 0
+TestPassAction 1595714763035 ShotServiceTest.java OK
+TestEditingAction 1595714847364 ShotServiceTest.java ADD ShotServiceTest.java CLASS ADD ShotServiceTest.java CLASS
+TestEditingAction 1595714865012 ShotServiceTest.java ADD import java.util.List IMPORT ADD import java.util.List IMPORT
+TestEditingAction 1595714865707 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595714865708 ShotServiceTest.java 1433 2 9 0
+TestFailureAction 1595714875947 ShotServiceTest.java FAIL
+CodeEditingAction 1595714906564 ShotService.java ADD import java.util.LinkedList IMPORT
+CodeEditingAction 1595714983381 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595714983381 ShotService.java 654 1 0 0
+EditAction 1595714983563 ShotService.java 654 1 0 0
+CodeEditingAction 1595714987358 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595714987526 ShotService.java 630 1 0 0
+CodeEditingAction 1595715005391 ShotService.java ADD import java.util.List IMPORT
+CodeEditingAction 1595715008790 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595715008953 ShotService.java 664 1 0 0
+CodeEditingAction 1595715022584 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595715022741 ShotService.java 710 1 0 0
+CodeEditingAction 1595715053262 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595715053436 ShotService.java 695 1 4 0
+CodeEditingAction 1595715056366 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595715056366 ShotService.java 691 1 4 0
+EditAction 1595715056532 ShotService.java 691 1 4 0
+TestFailureAction 1595715065742 ShotServiceTest.java FAIL
+TestEditingAction 1595715114806 ShotServiceTest.java REMOVE import java.util.Collections IMPORT REMOVE import java.util.Collections IMPORT
+TestEditingAction 1595715115422 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595715115423 ShotServiceTest.java 1410 2 9 0
+EditAction 1595715115675 ShotServiceTest.java 1410 2 9 0
+TestEditingAction 1595715124919 ShotServiceTest.java ADD import java.util.List IMPORT ADD import java.util.List IMPORT
+TestEditingAction 1595715125730 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595715125917 ShotServiceTest.java 1433 2 9 0
+CodeEditingAction 1595715137341 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595715137341 ShotService.java 691 1 4 0
+EditAction 1595715137513 ShotService.java 691 1 4 0
+TestFailureAction 1595715145926 ShotServiceTest.java FAIL
+TestEditingAction 1595715162228 ShotServiceTest.java REMOVE import java.util.Collections IMPORT REMOVE import java.util.Collections IMPORT
+TestEditingAction 1595715162951 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595715162951 ShotServiceTest.java 1410 2 9 0
+EditAction 1595715163193 ShotServiceTest.java 1410 2 9 0
+TestEditingAction 1595715171457 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595715171643 ShotServiceTest.java 1417 2 9 0
+TestEditingAction 1595715198390 ShotServiceTest.java ADD import java.util.List IMPORT ADD import java.util.List IMPORT
+TestEditingAction 1595715198842 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1595715199022 ShotServiceTest.java 1433 2 9 0
+CodeEditingAction 1595715269858 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595715269858 ShotService.java 766 1 4 0
+EditAction 1595715270037 ShotService.java 766 1 4 0
+TestFailureAction 1595715280187 ShotServiceTest.java FAIL
+CodeEditingAction 1595715324393 RoundDTO.java ADD String toString() METHOD
+CodeEditingAction 1595715325998 RoundDTO.java CHANGE RoundDTO.java CLASS
+EditAction 1595715325999 RoundDTO.java 1596 12 21 0
+EditAction 1595715326199 ShotService.java 766 1 4 0
+CodeEditingAction 1595715336692 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595715336692 ShotService.java 762 1 4 0
+EditAction 1595715336843 ShotService.java 762 1 4 0
+TestFailureAction 1595715347057 ShotServiceTest.java FAIL
+CodeEditingAction 1595715365640 RoundsDTO.java ADD String toString() METHOD
+CodeEditingAction 1595715368035 RoundsDTO.java CHANGE RoundsDTO.java CLASS
+EditAction 1595715368035 RoundsDTO.java 1010 8 13 0
+EditAction 1595715368230 ShotService.java 762 1 4 0
+TestFailureAction 1595715401056 ShotServiceTest.java FAIL
+CodeEditingAction 1595715444718 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595715444718 ShotService.java 762 1 4 0
+EditAction 1595715444885 ShotService.java 762 1 4 0
+CodeEditingAction 1595715469424 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1595715469425 ShotService.java 885 1 4 0
+EditAction 1595715469595 ShotService.java 885 1 4 0
+TestPassAction 1595715479757 ShotServiceTest.java OK
+CodeEditingAction 1595715490391 ShotService.java REMOVE ShotService.java CLASS
+EditAction 1595715490548 ShotService.java 855 1 4 0
+TestPassAction 1595715498527 ShotServiceTest.java OK

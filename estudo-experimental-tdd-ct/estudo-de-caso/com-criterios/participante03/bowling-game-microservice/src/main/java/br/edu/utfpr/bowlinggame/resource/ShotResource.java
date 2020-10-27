@@ -1,0 +1,26 @@
+package br.edu.utfpr.bowlinggame.resource;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.edu.utfpr.bowlinggame.dto.RoundDTO;
+import br.edu.utfpr.bowlinggame.service.ShotService;
+
+@RestController
+public class ShotResource {
+
+    @Autowired
+    private ShotService shotService;
+
+    @PostMapping("/api/v1/shot/{shot}")
+    public ResponseEntity<List<RoundDTO>> doShot(@PathVariable("shot") Integer shot) {
+        List<RoundDTO> allRounds = shotService.doShot(shot);
+        return new ResponseEntity<>(allRounds, HttpStatus.OK);
+    }
+}

@@ -1,0 +1,110 @@
+TestEditingAction 1594685262098 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1594685262100 ShotServiceTest.java 2127 3 12 2
+EditAction 1594685262329 ShotServiceTest.java 2127 3 12 2
+TestFailureAction 1594685273656 ShotServiceTest.java FAIL
+CodeEditingAction 1594685323565 Round.java CHANGE Round.java CLASS
+EditAction 1594685323574 Round.java 2284 17 26 0
+TestPassAction 1594685335404 ShotServiceTest.java OK
+CodeEditingAction 1594685371025 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1594685371026 ShotService.java 1252 2 5 0
+CodeEditingAction 1594685462664 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1594685462667 ShotService.java 1252 2 5 0
+TestPassAction 1594685479648 ShotServiceTest.java OK
+TestEditingAction 1594685499221 ShotServiceTest.java ADD void addNewShotLastIsCompleted FIELD ADD void addNewShotLastIsCompleted FIELD
+TestEditingAction 1594685503816 ShotServiceTest.java RENAME addNewShotLastIsCompleted=>void shouldAddNewShotLastIsCompleted FIELD RENAME addNewShotLastIsCompleted=>void shouldAddNewShotLastIsCompleted FIELD
+TestEditingAction 1594685505857 ShotServiceTest.java RENAME shouldAddNewShotLastIsCompleted=>void shouldAddNewShotLastIsCompleted() METHOD RENAME shouldAddNewShotLastIsCompleted=>void shouldAddNewShotLastIsCompleted() METHOD
+TestEditingAction 1594685509920 ShotServiceTest.java ADD import com.google.common.collect.Iterables IMPORT ADD import com.google.common.collect.Iterables IMPORT
+TestEditingAction 1594685619404 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1594685619695 ShotServiceTest.java 2761 4 20 3
+TestFailureAction 1594685631530 ShotServiceTest.java FAIL
+CodeEditingAction 1594685684802 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1594685684806 ShotService.java 1365 2 5 0
+CodeEditingAction 1594685688421 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1594685688423 ShotService.java 1404 2 5 0
+TestFailureAction 1594685699571 ShotServiceTest.java FAIL
+TestEditingAction 1594685764319 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1594685764321 ShotServiceTest.java 2782 4 12 2
+EditAction 1594685764563 ShotServiceTest.java 2782 4 12 2
+TestEditingAction 1594685767352 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1594685767353 ShotServiceTest.java 2783 4 20 3
+EditAction 1594685767607 ShotServiceTest.java 2783 4 20 3
+TestPassAction 1594685780364 ShotServiceTest.java OK
+TestCreationAction 1594685790689 ShotServiceTest.java ADD void shouldAddNewShotLastIsCompleted()/2 METHOD ADD void shouldAddNewShotLastIsCompleted()/2 METHOD
+TestCreationAction 1594685796783 ShotServiceTest.java RENAME shouldAddNewShotLastIsCompleted()/2=>void shouldAddSecondShotLastIsCompleted() METHOD RENAME shouldAddNewShotLastIsCompleted()/2=>void shouldAddSecondShotLastIsCompleted() METHOD
+TestCreationAction 1594685800349 ShotServiceTest.java RENAME shouldAddSecondShotLastIsCompleted()=>void shouldAddSecondShotLast() METHOD RENAME shouldAddSecondShotLastIsCompleted()=>void shouldAddSecondShotLast() METHOD
+TestCreationAction 1594685831617 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1594685831620 ShotServiceTest.java 3324 5 27 4
+EditAction 1594685831870 ShotServiceTest.java 3324 5 27 4
+TestCreationAction 1594685833049 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1594685833050 ShotServiceTest.java 3323 5 27 4
+EditAction 1594685833215 ShotServiceTest.java 3323 5 27 4
+TestCreationAction 1594685838957 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1594685838958 ShotServiceTest.java 3323 5 27 4
+EditAction 1594685839190 ShotServiceTest.java 3323 5 27 4
+TestCreationAction 1594685846660 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1594685846661 ShotServiceTest.java 3323 5 27 4
+EditAction 1594685846921 ShotServiceTest.java 3323 5 27 4
+TestCreationAction 1594685906164 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1594685906167 ShotServiceTest.java 3376 5 27 4
+EditAction 1594685906463 ShotServiceTest.java 3376 5 27 4
+TestFailureAction 1594685923398 ShotServiceTest.java FAIL
+EditAction 1594685945256 ShotServiceTest.java 3381 5 27 4
+EditAction 1594685945597 ShotServiceTest.java 3381 5 27 4
+TestFailureAction 1594685958358 ShotServiceTest.java FAIL
+CodeEditingAction 1594686008591 Round.java ADD void addShotTwo(Integer) METHOD
+CodeEditingAction 1594686019161 Round.java ADD void addShotTwo(Integer) METHOD
+CodeEditingAction 1594686043779 Round.java CHANGE Round.java CLASS
+EditAction 1594686043782 Round.java 2386 18 28 0
+EditAction 1594686044039 ShotServiceTest.java 3381 5 27 4
+CodeEditingAction 1594686047203 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1594686047204 ShotService.java 1430 2 5 0
+TestPassAction 1594686057534 ShotServiceTest.java OK
+TestCreationAction 1594686114201 ShotServiceTest.java ADD void shouldAddSecondShotLastRound()/2 METHOD ADD void shouldAddSecondShotLastRound()/2 METHOD
+TestCreationAction 1594686120270 ShotServiceTest.java RENAME shouldAddSecondShotLastRound()/2=>void shouldInvalid() METHOD RENAME shouldAddSecondShotLastRound()/2=>void shouldInvalid() METHOD
+TestCreationAction 1594686122852 ShotServiceTest.java RENAME shouldInvalid()=>void shouldInvalidNegativeT() METHOD RENAME shouldInvalid()=>void shouldInvalidNegativeT() METHOD
+TestCreationAction 1594686124416 ShotServiceTest.java RENAME shouldInvalidNegativeT()=>void shouldInvalidNegativeSHot() METHOD RENAME shouldInvalidNegativeT()=>void shouldInvalidNegativeSHot() METHOD
+TestCreationAction 1594686126526 ShotServiceTest.java RENAME shouldInvalidNegativeSHot()=>void shouldInvalidNegativeShot() METHOD RENAME shouldInvalidNegativeSHot()=>void shouldInvalidNegativeShot() METHOD
+TestCreationAction 1594686149709 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1594686149711 ShotServiceTest.java 3472 6 28 4
+EditAction 1594686150039 ShotServiceTest.java 3472 6 28 4
+CodeEditingAction 1594686168667 InvalidShotValueException.java ADD InvalidShotValueException.java CLASS
+TestEditingAction 1594686188273 ShotServiceTest.java ADD import br.edu.utfpr.bowlinggame.exception.InvalidShotValueException IMPORT ADD import br.edu.utfpr.bowlinggame.exception.InvalidShotValueException IMPORT
+TestEditingAction 1594686189717 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1594686189935 ShotServiceTest.java 3586 6 28 5
+TestFailureAction 1594686200941 ShotServiceTest.java FAIL
+CodeEditingAction 1594686229869 ShotService.java ADD import br.edu.utfpr.bowlinggame.exception.InvalidShotValueException IMPORT
+CodeEditingAction 1594686231304 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1594686231308 ShotService.java 1562 2 6 0
+TestPassAction 1594686243023 ShotServiceTest.java OK
+TestCreationAction 1594686261928 ShotServiceTest.java ADD void shouldInvalidNegativeShot()/2 METHOD ADD void shouldInvalidNegativeShot()/2 METHOD
+TestCreationAction 1594686266993 ShotServiceTest.java RENAME shouldInvalidNegativeShot()/2=>void shouldInvalidMoreTenShot() METHOD RENAME shouldInvalidNegativeShot()/2=>void shouldInvalidMoreTenShot() METHOD
+TestCreationAction 1594686268568 ShotServiceTest.java RENAME shouldInvalidMoreTenShot()=>void shouldInvalidMoreTenValueShot() METHOD RENAME shouldInvalidMoreTenShot()=>void shouldInvalidMoreTenValueShot() METHOD
+TestCreationAction 1594686273731 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1594686273731 ShotServiceTest.java 3726 7 29 6
+EditAction 1594686274040 ShotServiceTest.java 3726 7 29 6
+TestFailureAction 1594686286308 ShotServiceTest.java FAIL
+CodeEditingAction 1594686302710 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1594686302714 ShotService.java 1575 2 6 0
+TestPassAction 1594686314571 ShotServiceTest.java OK
+CodeEditingAction 1594686321335 ShotService.java ADD var rounds FIELD
+CodeEditingAction 1594686321335 ShotService.java ADD void verifyHasManyShot() METHOD
+CodeEditingAction 1594686335389 ShotService.java CHANGE ShotService.java CLASS
+EditAction 1594686335390 ShotService.java 1578 2 6 0
+TestPassAction 1594686356786 ShotServiceTest.java OK
+TestCreationAction 1594686368276 ShotServiceTest.java ADD void shouldAddSecondShotLastRound()/2 METHOD ADD void shouldAddSecondShotLastRound()/2 METHOD
+TestCreationAction 1594686376367 ShotServiceTest.java RENAME shouldAddSecondShotLastRound()/2=>void shouldAddSecondShotLastRoundInvalid() METHOD RENAME shouldAddSecondShotLastRound()/2=>void shouldAddSecondShotLastRoundInvalid() METHOD
+TestCreationAction 1594686377932 ShotServiceTest.java RENAME shouldAddSecondShotLastRoundInvalid()=>void shouldAddSecondShotLastRoundInvalidSum() METHOD RENAME shouldAddSecondShotLastRoundInvalid()=>void shouldAddSecondShotLastRoundInvalidSum() METHOD
+TestCreationAction 1594686379968 ShotServiceTest.java RENAME shouldAddSecondShotLastRoundInvalidSum()=>void shouldAddSecondShotLastRoundInvalidS() METHOD RENAME shouldAddSecondShotLastRoundInvalidSum()=>void shouldAddSecondShotLastRoundInvalidS() METHOD
+TestCreationAction 1594686381532 ShotServiceTest.java RENAME shouldAddSecondShotLastRoundInvalidS()=>void shouldAddSecondShotLastRoundInvalidScore() METHOD RENAME shouldAddSecondShotLastRoundInvalidS()=>void shouldAddSecondShotLastRoundInvalidScore() METHOD
+TestCreationAction 1594686420563 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1594686420567 ShotServiceTest.java 3982 8 31 7
+EditAction 1594686420794 ShotServiceTest.java 3982 8 31 7
+TestFailureAction 1594686426981 ShotServiceTest.java FAIL
+CodeEditingAction 1594686471425 Round.java ADD import br.edu.utfpr.bowlinggame.exception.InvalidShotValueException IMPORT
+CodeEditingAction 1594686473575 Round.java CHANGE Round.java CLASS
+EditAction 1594686473577 Round.java 2532 18 29 0
+TestFailureAction 1594686492359 ShotServiceTest.java FAIL
+TestEditingAction 1594686524505 ShotServiceTest.java CHANGE ShotServiceTest.java CLASS CHANGE ShotServiceTest.java CLASS
+EditAction 1594686524507 ShotServiceTest.java 3982 8 31 7
+EditAction 1594686524678 ShotServiceTest.java 3982 8 31 7
+TestPassAction 1594686536348 ShotServiceTest.java OK
